@@ -7,13 +7,50 @@
         <title>Turismo En Villa Dolores</title>
 
         <link rel="shortcut icon" href="img/5783755.png" type="image/x-icon">
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
     </head>
 
     <body>
-        <header>
-            <a href="index.html"><img src="img/5783755.png" alt="Logo Turismo" width="200px"></a>
-            <a href="contacto.html">Contacto</a>
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Turismo en Villa Dolores</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">index html<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Consulta.html">Consulta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Ayuda.html">Ayuda</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <!--error en codigo en data toggle lo cambie por data-bs-toggle-->
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Informacion util
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="transporte.html">Transporte</a>
+                    <a class="dropdown-item" href="alojamiento.html">Alojamiento</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
         <main>
             <h1>Turismo en Dolores</h1>
             <p>Villa Dolores es la cuidad mas influyente del oeste de Cordoba. Cabecera del departamento San Javier, se caracteriza por un particular micro clima, calurosos veranos y soleadas tardes de invierno, lo que permite disfrutrar de sus bellezas naturales los 365 dias del año</p>
