@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  display: flex;
+  /*Modificar la altura a 70px*/
+   min-height: 70px;
+  /*Cambiar color de fondo a Coral*/
+  background-color: coral;
+  /* Hace que los elementos se muevan a las ezquinas*/
+  justify-content: space-between;
+  /*Alinea los elementos al centro*/
+  align-items: center;
+  padding: 18px;
+}
+.logo {
+  display: flex;
+  align-content: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+nav a:hover {
+  color: white;
+}
+
+@media (min-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav{
+    padding: 10px 0px;
+  }
+}
