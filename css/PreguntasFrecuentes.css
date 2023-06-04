@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    background: bisque;
+    padding: 20px;
+    margin-top: 5px;
+    color:black;
+}
+
+header {
+    padding: 5px;
+    color: white;
+    background-color:rgb(31, 31, 31);
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+p > span {
+    font-weight: bold;
+}
