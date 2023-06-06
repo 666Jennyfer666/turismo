@@ -3,12 +3,14 @@
     padding: 0;
 }
 
+/* PARA CENTRAR TEXTO O ITEMS */
 .centrar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* PARA LA CAJITA DE TEXTOS */
 .article {
     background: bisque;
     padding: 20px;
