@@ -1,4 +1,3 @@
 # turismo
-app para turismo de la ciudad
-iniciando nuestro proyecto de turismo
-:(
+App para turismo de Traslasierra
+Iniciando nuestro proyecto de turismo
