@@ -12,27 +12,31 @@
 </head>
 <body>
    <link rel="stylesheet" href="Bootstrap/js/Bootstrap.js">
-   <button type="button" class="btn btn-warning"></button>
-   <button><p>Rellena este formulario para recibir
-    notificaciones/avisos, entre otras cosas.
-   </p></button>
-    <form name="formNotificaciones" class="row g-3 needs-validation" action="" method="get" novalidate></form>
+   
+    <h1 class="text-center">NOTIFICACIONES</h1>
+    <br>
+    <div class="alert alert-info text-center">Rellena este formulario para recibir notificaciones/avisos, entre otras cosas.</div>
 
-    <div class="col-md-4">
-    <label for="validationcustom02" class="form_label">Nombre</label>
-    <input type="text" name="Nombre" maxlength="30" minlength="3" class="form.Notificaciones" id="validationcustom02" required>
-
-    <div class="col-md-4">
-        <label for="validationcustom02" class="form_label">Apellido</label>
-        <input type="text" name="Apellido" maxlength="30" minlength="3" class="form.Notificaciones" id="validationcustom02" required>
-
-     <div class="col-md-4">
-        <label for="validationcustom02" class="form_labeñ">Email</label>
-        <span class="input-group-text" id="input-groupPrepend">@</span>
-        <input type="text" name="Email" maxlength="30" minlength="3" class="form.Notificaciones" id="validationcustom02" required>
-
-     </div>   
+    <div class="container">
+        <form name="formNotificaciones" class="" action="" method="get" novalidate>
+        <div class="mb-3">
+            <label for="validationcustom01" class="form-label">Nombre</label>
+            <input type="text" name="Nombre" maxlength="30" minlength="3" class="form-control" id="validationcustom01" required>
+        </div>
+        <div class="mb-3">
+            <label for="validationcustom02" class="form-label">Apellido</label>
+            <input type="text" name="Apellido" maxlength="30" minlength="3" class="form-control" id="validationcustom02" required>
+        </div>
+        <div class="mb-3">
+            <label for="validationcustom03" class="form-label">Email</label>
+            <span class="input-group-text" id="input-groupPrepend">@</span>
+            <input type="text" name="Email" maxlength="30" minlength="3" class="form-control" id="validationcustom03" required>    
+        </div>
+    </form>
     </div>
+    
+
+    
 
 </div>
 </body>
