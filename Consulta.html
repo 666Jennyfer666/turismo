@@ -20,7 +20,6 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -55,23 +54,38 @@
       </form>
     </div>
   </nav>
-      <header>
+  <!-- Inicio de codigo consulta html  -->
         <h1> <b>Consulta Turismo</b></h1>
-        <img src="/img/Telefono.jpg" alt="Telefono" height="80" width="100">
-      </header>
-      <main>
-        <label for="#Nombre_Apellido" class="Nombre_Apellido">Nombre y Apellido:</label>
-        <input type="text">
-        <label for="#gmail" class="email">Gmail:</label>
-        <input type="email">
-        <label for="#Numero" class="Celu">Celular:</label>
-        <input type="tel">
-        <label for="#" class="Mens">Mensaje:</label>
-        <input type="text">
-        <button type="submit" class="Enviar
-        ">Enviar</button>
-        <button type="reset" class="Limpiar">Limpiar</button>
-      </main>
+        <img src="/img/Logos o Imagenes Pequeñas/Logo Telefono.jpg" alt="Telefono" height="80" width="100">
+      <!-- Formulario con boostrap -->
+      <!-- Agregue en los input un required y un minlength y un maxlenght -->
+        <form>
+        <div class="mb-3">
+          <label for="idE" class="form-label">Nombre y Apellido:</label>
+          <input type="text" class="form-control" id="idE"
+          aria-describedby="idEH" required minlength="8" maxlength="25">
+        </div>
+        <div class="mb-3">
+          <label for="idE" class="form-label">Correo:</label>
+          <input type="email" class="form-control" id="idE"
+          aria-describedby="idEH" required minlength="6" maxlength="25">
+          <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+        </div>
+        <div class="mb-3">
+          <label for="ConsultaInput"
+          class="form-control-plaintext">Consulta:</label>
+          <!-- Contiene un area de texto para que el usuario pueda escribir su consulta -->
+          <textarea name="" class="form-control" id="miTextarea" cols="90" rows="8" minlength="10" maxlength="130"  required ></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input"
+          id="exampleCheck1">
+          
+          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
       <footer>
         <p>Creado en 2023</p>
         <p>Tel: 354475****</p>
