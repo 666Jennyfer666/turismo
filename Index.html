@@ -1,21 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/CSS/estilos de turismo.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-</head>
-<h1>Turismo traslasierra</h1> 
-<body>
-   <p><center> Traslasierra se destaca por sus particularidades naturales y por lograr una síntesis magistral entre el paisaje y el espíritu serrano. Tres embalses, un imponente cordón montañoso, volcanes, palmares, bosques y ríos, convierten a esta región en un destino ideal para el descanso y la recreación.</p>
-    <p>El área de Traslasierra está ubicada al oeste de la ciudad de Córdoba, delimitada por diversos cordones serranos. Partiendo desde Córdoba capital, a esta región se accede por el Camino de las Altas Cumbres, por la ruta nacional N° 20.
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Turismo En Villa Dolores</title>
+        
+        <!-- Conexión con Bootstrap CSS -->
+        <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
+    </head>
 
-        El área de Traslasierra se encuentra atravesada por numerosos ríos y arroyos, que se distinguen por sus aguas claras y su lecho arenoso, y desembocan en el Embalse Embalse La Viña. Este embalse se destaca por un muro de contención de 102 metros, que es el más alto del país y Latinoamérica. Allí se pueden practicar deportes náuticos como windsurf, kayak, canotaje, remo y pesca de pejerrey entre otras especies. Durante el verano, el río Mina Clavero y el río Panaholma son los más visitados por los turistas, porque ofrecen hermosos balnearios y paradores.
-        
-        Esta zona alberga más de 20 localidades turísticas, entre las que se destacan importantes ciudades, comunas y parajes. Las ciudades de Villa Dolores y Mina Clavero constituyen los centros urbanos más destacados, le siguen las localidades de Nono, Villa Cura Brochero, Las Rabonas, Los Hornillos, Villa de las Rosas, Las Tapias, San Javier, Yacanto, Luyaba y La Paz.
-        
-        En Traslasierra los turistas pueden disfrutar del contacto con la naturaleza, a través de la práctica del ecoturismo, recorriendo paisajes agrestes y rocosos. Aquí se encuentran tres de las áreas naturales protegidas más importantes de la provincia. El Parque Nacional Quebrada del Condorito, la Reserva Hídrica Pampa de Achala y la Reserva Natural Chancaní, en donde se realizan actividades al aire libre, como la observación de fauna, caminatas y cabalgatas.</center></p>
-</body>
+    <body>
+      <!-- Conexión con Bootstrap JS -->
+      <script src="Bootstrap/JS/bootstrap.js"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Turismo en Villa Dolores</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Consulta.html">Consulta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="PreguntasFrecuentes.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Ayuda.html">Ayuda</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <!--error en codigo en data toggle lo cambie por data-bs-toggle-->
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Informacion util
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="transporte.html">Transporte</a>
+                    <a class="dropdown-item" href="alojamiento.html">Alojamiento</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        <main>
+            <h1>Turismo en Dolores</h1>
+            <p>Villa Dolores es la cuidad mas influyente del oeste de Cordoba. Cabecera del departamento San Javier, se caracteriza por un particular micro clima, calurosos veranos y soleadas tardes de invierno, lo que permite disfrutrar de sus bellezas naturales los 365 dias del año</p>
+            
+            <!-- listas ordenadas -->
+            <h4>Indice</h4>
+
+            <ul type="square">
+                <li>Experiencia</li>
+            </ul>
+            <ul type="square">
+                <li>Informacion util</li>
+            </ul>
+            
+            <h3>Experiencias</h3>
+            
+            <h4>Aventura</h4>
+
+            <ul type = "circle">
+                <li>Festival de la papa</li>
+                <li>Feria Franca</li>
+                <li>Cine</li>
+            </ul> 
+
+            <h4>Cultura</h4>
+
+            <ul type = "circle">
+                <li>Teatro Español</li>
+                <li>Teatro Griego</li>
+                <li>Museo</li>
+            </ul> 
+
+            <h4>Naturaleza</h4>
+            
+            <ul type = "circle">
+                <li>Piedra Pintada</li>
+                <li>Plaza Mitre</li>
+                <li>Parque de la vida</li>
+            </ul> 
+            
+            <!-- listas Desordenadas Centrar items css -->
+
+            <h3>Informacion util</h3>
+
+            <h4>Ospedaje</h4>
+            
+            <ul type = "circle">
+                <li>Ariane Hotel</li>
+                <li>Cabañas Villa Dolores</li>
+                <li>Posada casa blanca</li>
+            </ul> 
+            
+            <h4>Transporte</h4>
+            
+            <ul type = "circle">
+                <li>Estacion terminal de omnibus</li>
+                <li>panaholma SRL_viajes</li>
+                <li>Taxi Villa Dolores</li>
+            </ul> 
+            
+            <h4>Gastronomia</h4>
+
+            <ul type = "circle">
+                <li>Pizza Pepe</li>
+                <li>Demetria translasierra</li>
+                <li>La cocina</li>
+            </ul> 
+        </main>
+        <footer>
+            <div>
+                <i class="fa fa-copyright" aria-hidden="true"></i> Creado en 2023
+            </div>
+        </footer>
+    </body>
 </html>
