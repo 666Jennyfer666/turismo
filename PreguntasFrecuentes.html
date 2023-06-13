@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +8,101 @@
 
     <!-- Conexión con Bootstrap CSS -->
     <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
-</head>
-<body background="img/Fondo-blanco-pagina-01.jpg">
-  <!-- Conexión con Bootstrap JS -->
+  </head>
+  <body>
+    <!-- Conexión con Bootstrap JS -->
     <script src="Bootstrap/JS/bootstrap.js"></script>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">TURISMO TRASLASIERRA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              
+    <!-- Barra de navegación con fondo negro y letra clara -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Turismo Traslasierra</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Los ítems que van en la barra de navegación -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Información Útil
+            <!-- Item de la barra que redirige al Inicio (index) -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <!-- Item de la barra que abre un dropdown para ver las opciones de páginas de Qué visitar -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownQueVisitar" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Qué visitar
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Transporte</a></li>
-                  <li><a class="dropdown-item" href="#">Alojamiento</a></li>
+
+                <!-- Opciones de "Qué visitar" -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownQueVisitar">
+                  
+                  <!-- Item del dropdown que redirige a Cultura de Qué visitar -->
+                  <li><a class="dropdown-item" href="CulturaQueVisitar.html">Cultura</a></li>
+
+                  <!-- Item del dropdown que redirige a Lugares Turísticos de Qué visitar -->
+                  <li><a class="dropdown-item" href="LugaresTuristicosQueVisitar.html">Lugares Turísticos</a></li>
+
+                  <!-- Item del dropdown que redirige a Naturaleza de Qué visitar -->
+                  <li><a class="dropdown-item" href="NaturalezaQueVisitar.html">Lugares con Naturaleza</a></li>
+
                 </ul>
-              </li>
+            </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Experiencias
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">...</a></li>
-                  <li><a class="dropdown-item" href="#">...</a></li>
-                </ul>
-              </li>
+            <!-- Item de la barra que redirige a Localidades -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Localidad.html">Localidades</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ayuda</a>
-              </li>
+            <!-- Item de la barra que abre un dropdown para ver las opciones de páginas de Información Útil -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownInfoUtil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Información Útil
+              </a>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+              <!-- Opciones de "Información Útil" -->
+              <ul class="dropdown-menu" aria-labelledby="dropdownInfoUtil">
+
+                <!-- Item del dropdown que redirige a Transporte de Información Útil -->
+                <li><a class="dropdown-item" href="transporte.html">Transporte</a></li>
+
+                <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
+                <li><a class="dropdown-item" href="hospedaje.html">Hospedaje</a></li>
+
+              </ul>
+            </li>
+
+            <!-- Item de la barra que redirige a las Preguntas Frecuentes -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="PreguntasFrecuentes.html">FAQ</a>
+            </li>
+
+            <!-- Item de la barra que redirige a Consulta -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Consulta.html">Consulta</a>
+            </li>
+
+            <!-- Item de la barra que redirige a Notificaciones -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Notificaciones.html">Notificaciones</a>
+            </li>
+
+            <!-- Item de la barra que redirige a Ayuda -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Ayuda.html">Ayuda</a>
+            </li>
+
+            <!-- Item de la barra que redirige a Términos y Condiciones -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="términos y condiciones.html">Términos y Condiciones</a>
+            </li>
+
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <header>
         <h2 class="centrar">Preguntas Frecuentes</h1>
@@ -94,5 +136,5 @@
         </article>
     </main>
     
-</body>
+  </body>
 </html>
