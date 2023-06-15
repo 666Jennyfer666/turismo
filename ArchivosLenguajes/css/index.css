@@ -1,0 +1,38 @@
+.inicio {
+    background-color: #cdc6f8;
+}
+header {
+    display: flex;
+    background-image: url(/img/fondos/Montaña\ traslasierra.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+.titulo {
+    text-align: center;
+    margin: auto;
+    margin-right:auto;
+}
+header img {
+    align-items: center;
+    max-width: 15%;
+    background-size: cover;
+    
+}
+.inicio h2 {
+    text-align: center;
+    font-size: 50px;
+}
+#fondo2 {
+    background-image: url(/img/fondos/amanecer\ traslasierra.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+form img {
+    align-items: center;
+    max-width: 10%;
+    background-size: cover;
+}
