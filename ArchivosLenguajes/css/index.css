@@ -3,7 +3,7 @@
 }
 header {
     display: flex;
-    background-image: url(/img/fondos/Montaña\ traslasierra.jpg);
+    background-image: url(/img/fondos/img\ traslasierra\ recortada\ 1.jpg);
     background-size: cover;
     background-position: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header img {
     font-size: 50px;
 }
 #fondo2 {
-    background-image: url(/img/fondos/amanecer\ traslasierra.jpg);
+    background-image: url(/img/fondos/img\ traslasierra\ recortada\ 2.jpg);
     background-size: cover;
     background-position: center;
     justify-content: space-between;
