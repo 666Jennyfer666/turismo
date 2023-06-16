@@ -1,0 +1,36 @@
+body {
+    background-color: #ebe9f5;
+}
+
+button {
+    background-color: rgb(140, 219, 219);
+    color: #fff;
+}
+
+.recuadroVioleta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5a4e1;
+    margin-top: 5px;
+    padding: 2px 5px 2px 5px;
+}
+
+.recuadroCeleste {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 207, 218);
+    margin: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+p {
+    font-size:larger;
+    hyphens: auto;
+}
+
+img {
+    size-adjust: auto;
+}
