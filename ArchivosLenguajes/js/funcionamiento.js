@@ -20,7 +20,7 @@ function capturaDatosConsulta(){
                 document.getElementById("nomusu").value = "";
                 document.getElementById("emausu").value = "";
                 document.getElementById("miTextarea").value = "";
-                document.getElementById("usunom").focus();
+                document.getElementById("nomusu").focus();
             }
         }
     }
