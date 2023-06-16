@@ -9,7 +9,6 @@
 
   <!-- Conexión con Bootstrap CSS -->
   <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
-  <link rel="stylesheet" href="css/Consulta.css">
   
 </head>
 <body>
@@ -110,32 +109,29 @@
       <!-- Agregue en los input un required y un minlength y un maxlenght -->
         <form>
         <div class="mb-3">
-          <label for="idE" class="form-label">Nombre y Apellido:</label>
-          <input type="text" class="form-control" id="idE"
+          <label for="nomusu" class="form-label">Nombre y Apellido:</label>
+          <input type="text" name="nomusu" class="form-control" id="nomusu"
           aria-describedby="idEH" required minlength="8" maxlength="25">
         </div>
         <div class="mb-3">
-          <label for="idE" class="form-label">Correo:</label>
-          <input type="email" class="form-control" id="idE"
+          <label for="emausu" class="form-label">Correo:</label>
+          <input type="email" name="emausu" class="form-control" id="emausu"
           aria-describedby="idEH" required minlength="6" maxlength="25">
           <div id="idEH" class="form-text">Debe ser un correo válido.</div>
         </div>
         <div class="mb-3">
-          <label for="ConsultaInput"
+          <label for="miTextarea"
           class="form-control-plaintext">Consulta:</label>
           <!-- Contiene un area de texto para que el usuario pueda escribir su consulta -->
-          <textarea name="" class="form-control" id="miTextarea" cols="90" rows="8" minlength="10" maxlength="130"  required ></textarea>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input"
-          id="exampleCheck1">
-          
-          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+          <textarea name="miTextarea" class="form-control" id="miTextarea" cols="90" rows="8" minlength="10" maxlength="130"  required ></textarea>
         </div>
         
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="button" onclick="capturaDatosConsulta()" class="btn btn-primary">Enviar</button>
     </form>
-      <footer>
+
+    <script src="ArchivosLenguajes/js/funcionamiento.js"></script>
+      
+    <footer>
         <p>Creado en 2023</p>
         <p>Tel: 354475****</p>
       </footer>
