@@ -109,27 +109,31 @@
     <div class="container">
         <form name="formNotificaciones" class="" action="" method="get" novalidate>
         <div class="mb-3">
-            <label for="validationcustom01" class="form-label">Nombre</label>
-            <input type="text" name="Nombre" maxlength="30" minlength="3" class="form-control" id="validationcustom01" required>
+            <label for="nomnot" class="form-label">Nombre</label>
+            <input type="text" name="Nombrenot" maxlength="30" minlength="3" class="form-control" id="nomnot" required>
         </div>
         <div class="mb-3">
-            <label for="validationcustom02" class="form-label">Apellido</label>
-            <input type="text" name="Apellido" maxlength="30" minlength="3" class="form-control" id="validationcustom02" required>
+            <label for="apenot" class="form-label">Apellido</label>
+            <input type="text" name="Apellidonot" maxlength="30" minlength="3" class="form-control" id="apenot" required>
         </div>
         <div class="mb-3">
-            <label for="validationcustom03" class="form-label">Email</label>
+            <label for="emailnot" class="form-label">Email</label>
             <span class="input-group-text" id="input-groupPrepend">@</span>
-            <input type="text" name="Email" maxlength="30" minlength="3" class="form-control" id="validationcustom03" required>
+            <input type="text" name="Emailnot" maxlength="30" minlength="3" class="form-control" id="emailnot" required>
         
-            <input type="checkbox" id = "caja-aceptar">
-             <label>Acepto los términos y condiciones de este sitio web</label>
-         
+            
         </div>
+        <div class="m-3">
+            <input type="checkbox" name="cajitacepcondi" id = "caja-aceptar" required>
+            <label for="caja-aceptar" class="form-label"><a href="términos y condiciones.html">Acepto los términos y condiciones de este sitio web</a></label>
+        </div>
+        <button type="button" onclick="capturaDatosNotificacion()" class="">Enviar</button>
+
     </form>
     </div>
     
 
-    
+    <script src="ArchivosLenguajes/js/funcionamiento.js"></script>
 
 </div>
   </body>

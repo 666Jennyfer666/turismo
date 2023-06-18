@@ -28,3 +28,41 @@ function capturaDatosConsulta(){
         }
     }
 }
+
+// Función que captura datos de Notificaciones desde un cuadro de texto de formulario
+function capturaDatosNotificacion(){
+    // Creé variables y le asigné lo que haya sido ingresado en el input o textarea (que lo encontré con su ID)
+    var Nombrenot = document.getElementById("nomnot").value;
+    var Apellidonot = document.getElementById("apenot").value;
+    var Emailnot = document.getElementById("emailnot").value;
+    var cajitacepcondi = document.getElementById("caja-aceptar")
+    //Si no ingresan nada en el formulario o input, aparecerá una alerta
+    if (Nombrenot == "") {
+        alert("El nombre es obligatorio digitarlo");
+        document.getElementById("nomnot").focus();
+    }else{
+        if (Emailnot=="") {
+            alert("El e-mail es obligatorio digitarlo");
+            document.getElementById("emailnot").focus();
+        }else {
+            if (Apellidonot == "") {
+                alert("Es obligatorio completar el campo apellido");
+                document.getElementById("apenot").focus();
+            }
+            else{
+            }if (cajitacepcondi.checked == false)
+            {
+                alert("Es obligatorio aceptar los términos y condiciones");
+                document.getElementById("caja-aceptar").focus();
+            }
+            else{
+                // Imprimo los 
+                console.log(Nombrenot + Apellidonot + " " + Emailnot + cajitacepcondi);
+                document.getElementById("nomnot").value = "";
+                document.getElementById("apenot").value = "";
+                document.getElementById("emailnot").value = "";
+                document.getElementById("caja-aceptar").focus();
+            }
+        }
+    }
+}
