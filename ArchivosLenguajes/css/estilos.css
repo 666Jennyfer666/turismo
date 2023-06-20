@@ -37,3 +37,26 @@ p {
 img {
     size-adjust: auto;
 }
+/*Centrado del header con clase centrar*/
+header .centrar {
+    text-align: center;
+}
+.container .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#apmc .img-min-1 {
+    margin: 10%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#apmc .img-min-2 {
+    margin: 10%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
