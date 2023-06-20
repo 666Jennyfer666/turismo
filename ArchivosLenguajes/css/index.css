@@ -53,5 +53,28 @@ form img {
     padding-right: 40px;
     padding-left: 40px;
 }
-
-
+/* Estilos para la clase .contact-info */
+.contact-info {
+    /* Muestra los elementos como una línea horizontal */
+    display: flex;
+    /* Alinea los elementos al extremo derecho */
+    justify-content: flex-end;
+}
+/* Estilos para la clase .redes-sociales */
+.redes-sociales {
+    /* Muestra los elementos como una línea horizontal */
+    display: flex;
+    /* Ancho fijo de 210 píxeles */
+    width: 210px;
+    /* Cambie la dirección de los elementos a una columna */
+    flex-direction: column;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Cambie el cursor a un ícono de puntero al pasar el mouse sobre los elementos */
+    cursor: pointer;
+  }
+  /* Estilos para la clase .imagen-pequena */
+  .imagen-pequena {
+    /* Ancho fijo de 25 píxeles para las imágenes de las redes sociales */
+    width: 25px;
+  }
