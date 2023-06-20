@@ -25,4 +25,20 @@ function redirigir(redSocial) {
         break;
     }
   }
+  // Obtiene el elemento con el ID "interletrado-titulo"
+  const title = document.getElementById('interletrado-titulo');
+  // Obtiene el texto contenido en el elemento
+  const text = title.textContent;
+  // Borra el contenido original del elemento
+  title.innerHTML = '';
+  // Recorre sobre cada letra del texto
+  for (let i = 0; i < text.length; i++) {
+    // Crea un nuevo elemento <span>
+  const span = document.createElement('span');
+  // Establece el texto del <span> como el caracter actual
+  span.textContent = text[i];
+  // Agrega el <span> como hijo del elemento "interletrado-titulo"
+  title.appendChild(span);
+}
+
   

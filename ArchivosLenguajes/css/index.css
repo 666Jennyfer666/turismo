@@ -22,7 +22,10 @@ header img {
 }
 .inicio h2 {
     text-align: center;
-    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    /* Grosor de fuente: 500 */
+    font-weight: 500;
 }
 #fondo2 {
     background-image: url(/img/fondos/img\ traslasierra\ recortada\ 2.jpg);
@@ -53,6 +56,8 @@ form img {
     padding-right: 40px;
     padding-left: 40px;
 }
+
+
 /* Estilos para la clase .contact-info */
 .contact-info {
     /* Muestra los elementos como una línea horizontal */
@@ -78,3 +83,49 @@ form img {
     /* Ancho fijo de 25 píxeles para las imágenes de las redes sociales */
     width: 25px;
   }
+
+
+  /* Estilos para el titulo <h1> con el ID "interletrado-titulo" */
+  #interletrado-titulo {
+    /* Espaciado entre letras */
+    letter-spacing: 14px;
+    /* Tipo de fuente: Roboto, una fuente sans-serif */
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    /* Grosor de fuente: 500 */
+    font-weight: 500;
+    /* Posición relativa */
+    position: relative;
+    /* Cambiar el cursor a una mano para indicar que es interactivo */
+    cursor: pointer;
+  }
+  /* Estilos para los elementos span dentro de #interletrado-titulo */
+  #interletrado-titulo span {
+    /* Posición relativa */
+    position: relative;
+    /* Mostrar en línea como elementos en bloque */
+    display: inline-block;
+    /* Transición suave de 0.4 segundos al aplicar transformaciones */
+    transition: transform 0.4s ease;
+  }
+  /* Estilos para los elementos span en posiciones impares dentro de #interletrado-titulo */
+  #interletrado-titulo span:nth-child(odd) {
+    /* Establece el origen de la transformacion en la parte inferior */
+    transform-origin: bottom;
+  }
+  /* Estilos para los elementos span en posiciones pares dentro de #interletrado-titulo */
+  #interletrado-titulo span:nth-child(even) {
+    /* Establecer el origen de transformación en la parte superior */
+    transform-origin: top;
+  }
+  /* Estilos al pasar el mouse por encima de los elementos span en posiciones impares dentro de #interletrado-titulo */
+  #interletrado-titulo:hover span:nth-child(odd) {
+    /* Mover hacia arriba 14px al pasar el mouse */
+    transform: translateY(-14px);
+  }
+  /* Estilos al pasar el mouse por encima de los elementos span en posiciones pares dentro de #interletrado-titulo */
+  #interletrado-titulo:hover span:nth-child(even) {
+    /* Mover hacia abajo 14px al pasar el mouse */
+    transform: translateY(14px);
+  }
+  
