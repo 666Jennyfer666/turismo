@@ -57,6 +57,9 @@ header .centrar {
 .centrar {
     text-align: center;
 }
+h3 {
+    text-align: center;
+}
 /*Para que todos los span tengna negrita*/
 p span {
     font-weight: bold;
