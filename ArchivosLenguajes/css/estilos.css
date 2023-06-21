@@ -45,18 +45,141 @@ header .centrar {
     text-decoration: none;
     color: black;
 }
-
+/* Acqualandia Park Mina Clavero imagenes*/
 #apmc .img-min-1 {
     margin: 10%;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 360px;
+    height: 300px;
 }
 #apmc .img-min-2 {
     margin: 10%;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 360px;
+    height: 300px;
 }
+/*Casino Mina Clavero img*/
+#cmc .img-cmc-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#cmc .img-cmc-2 {
+    margin: 5mm 5mm 5mm 5mm; 
+    width: 360px;
+    height: 300px;
+}
+#cmc .img-cmc-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Festival de la papa VD img*/
+#fpvd .img-fpvd-1 {
+    margin: 10%;
+    width: 360px;
+    height: 300px;
+}
+#fpvd .img-fpvd-2 {
+    margin: 10%;
+    width: 360px;
+    height: 300px;
+}
+/*Feria Franca VD img*/
+#ffvd .img-ffvd-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#ffvd .img-ffvd-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Eter Cine VD img*/
+#ecvd .img-ecvd-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#ecvd .img-ecvd-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Laberinto Del Nono*/
+#ldn .img-ldn-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#ldn .img-ldn-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Feria del Artesano*/
+#fapevr .img-fapevr-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#fapevr .img-fapevr-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Balneario Municipal Guasmara VLR*/
+#bmgvr .img-bmgvr-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#bmgvr .img-bmgvr-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Serpentario Machaqway VLR*/
+#smvr .img-smvr-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#smvr .img-smvr-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Golf Club Yacanto*/
+#gcy .img-gcy-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#gcy .img-gcy-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Artesanias y productores en San Javier y Yacanto*/
+#apsjy .img-apsjy-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#apsjy .img-apsjy-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+/*Vicentino Don Zamora en San Vicente*/
+#vzsv .img-vzsv-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+#vzsv .img-vzsv-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 300px;
+}
+
