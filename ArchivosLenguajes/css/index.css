@@ -95,7 +95,7 @@ form img {
     font-family: Roboto, sans-serif;
     font-size: 50px;
     /* Grosor de fuente: 500 */
-    font-weight: 650;
+    font-weight: 500;
     /* Posición relativa */
     position: relative;
     /* Cambiar el cursor a una mano para indicar que es interactivo */
@@ -130,4 +130,28 @@ form img {
     /* Mover hacia abajo 14px al pasar el mouse */
     transform: translateY(14px);
   }
+  
+
+/* Define los estilos del contenedor del logo */
+.logo-container {
+  /* Posicionamiento relativo */
+  position: relative;
+  /* Desplaza el contenedor del logo un 5% hacia la derecha */ 
+  left: 5%; 
+  /* Aplica la animación moveLogo */
+  animation: moveLogo 2s ease-in-out infinite alternate; 
+}
+
+/* Define los keyframes de la animación moveLogo */
+@keyframes moveLogo {
+  0% {
+    /* Sin desplazamiento vertical al inicio */
+    transform: translateY(0); 
+  }
+  100% {
+    /* Ajusta el valor para controlar el movimiento vertical en pixeles */
+    transform: translateY(15px); 
+  }
+}
+
   

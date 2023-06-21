@@ -41,4 +41,31 @@ function redirigir(redSocial) {
   title.appendChild(span);
 }
 
+
+// Busca el elemento del logo en el DOM y lo asigna a la variable 'logo'
+var logo = document.querySelector('.logo-container');
+
+// Variable booleana que indica si la animación está en ejecución
+var isAnimationRunning = true;
+
+// Función para alternar la animación al hacer clic en un botón
+function toggleAnimation() {
+  if (isAnimationRunning) {
+    // Si la animación está en ejecución, se pausa estableciendo el estado de reproducción en 'paused'
+    logo.style.animationPlayState = 'paused';
+  } else {
+    // Si la animación no está en ejecución, se reanuda estableciendo el estado de reproducción en 'running'
+    logo.style.animationPlayState = 'running';
+  }
+  
+  // Invierte el valor de 'isAnimationRunning' para reflejar el nuevo estado de la animación
+  isAnimationRunning = !isAnimationRunning;
+}
+
+// Busca el botón en el DOM y agrega un evento de clic que llama a la función 'toggleAnimation'
+var button = document.querySelector('button');
+button.addEventListener('click', toggleAnimation);
+
+
+
   
