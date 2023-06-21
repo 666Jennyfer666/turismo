@@ -32,7 +32,7 @@ header img {
     background-size: cover;
     background-position: center;
     justify-content: space-between;
-    padding: 5%;
+    padding: 7px;
 }
 form img {
     align-items: center;
@@ -77,23 +77,25 @@ form img {
     align-items: center;
     /* Cambie el cursor a un ícono de puntero al pasar el mouse sobre los elementos */
     cursor: pointer;
+    
   }
   /* Estilos para la clase .imagen-pequena */
   .imagen-pequena {
     /* Ancho fijo de 25 píxeles para las imágenes de las redes sociales */
     width: 25px;
+    margin-bottom: 10px;
   }
 
 
   /* Estilos para el titulo <h1> con el ID "interletrado-titulo" */
   #interletrado-titulo {
     /* Espaciado entre letras */
-    letter-spacing: 14px;
+    letter-spacing: 18px;
     /* Tipo de fuente: Roboto, una fuente sans-serif */
     font-family: Roboto, sans-serif;
     font-size: 50px;
     /* Grosor de fuente: 500 */
-    font-weight: 500;
+    font-weight: 650;
     /* Posición relativa */
     position: relative;
     /* Cambiar el cursor a una mano para indicar que es interactivo */
