@@ -45,7 +45,11 @@ header .centrar {
     text-decoration: none;
     color: black;
 }
-/* Acqualandia Park Mina Clavero imagenes*/
+/*Para que todos los span tengna negrita*/
+p span {
+    font-weight: bold;
+}
+/* Acqualandia Park Mina Clavero img*/
 #apmc .img-min-1 {
     margin: 10%;
     width: 360px;
@@ -127,7 +131,7 @@ header .centrar {
     width: 360px;
     height: 300px;
 }
-/*Balneario Municipal Guasmara VLR*/
+/*Balneario Municipal Guasmara VLR img*/
 #bmgvr .img-bmgvr-1 {
     margin: 5mm 5mm 5mm 5mm;
     width: 360px;
@@ -160,7 +164,7 @@ header .centrar {
     width: 360px;
     height: 300px;
 }
-/*Artesanias y productores en San Javier y Yacanto*/
+/*Artesanias y productores en San Javier y Yacanto img*/
 #apsjy .img-apsjy-1 {
     margin: 5mm 5mm 5mm 5mm;
     width: 360px;
@@ -171,7 +175,7 @@ header .centrar {
     width: 360px;
     height: 300px;
 }
-/*Vicentino Don Zamora en San Vicente*/
+/*Vicentino Don Zamora en San Vicente img*/
 #vzsv .img-vzsv-1 {
     margin: 5mm 5mm 5mm 5mm;
     width: 360px;
@@ -182,4 +186,164 @@ header .centrar {
     width: 360px;
     height: 300px;
 }
+/*Lo que sigue es La Naturaleza img*/
 
+#bnamc .img-bnamc-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#bnamc .img-bnamc-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 360px;
+    height: 200px;
+}
+/*Piedra Pintada Villa Dolores img*/
+#pcvcb .img-pcvcb-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+
+/*Sendero de las Sierras Embrujadas las Rabonas img*/
+#sser .img-sser-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#sser .img-sser-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#sser .img-sser-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#sser .img-sser-4 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+
+/*Dique la viña Quebrada de los Pozos img*/
+#dvqp .img-dvqp-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#dvqp .img-dvqp-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#dvqp .img-dvqp-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#dvqp .img-dvqp-4 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+
+/*Dique Nivelador Boca del Río Las Tapias img*/
+#dnbrlt .img-dnbrlt-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#dnbrlt .img-dnbrlt-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#dnbrlt .img-dnbrlt-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#dnbrlt .img-dnbrlt-4 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+/*Sendero Quebrada de Ambrosio San Javier y Yacanto img*/
+#sqasjy .img-sqasjy-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#sqasjy .img-sqasjy-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#sqasjy .img-sqasjy-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#sqasjy .img-sqasjy-4 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+
+/*Río Panaholma img*/
+#rp .img-rp-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#rp .img-rp-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#rp .img-rp-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#rp .img-rp-4 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+
+/*Camino de los Volcanes Salsacate img*/
+#cvs .img-cvs-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#cvs .img-cvs-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#cvs .img-cvs-3 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#cvs .img-cvs-4 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+
+/*Senderismo San Lorenzo img*/
+#ssl .img-ssl-1 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
+#ssl .img-ssl-2 {
+    margin: 5mm 5mm 5mm 5mm;
+    width: 400px;
+    height: 200px;
+}
