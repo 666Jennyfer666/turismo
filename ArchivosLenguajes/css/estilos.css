@@ -45,6 +45,18 @@ header .centrar {
     text-decoration: none;
     color: black;
 }
+.centrar .Verde {
+    background-color: rgb(161, 206, 161);
+    margin: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/*Centrar todo el texto que contenga el div con la clase centrar*/
+.centrar {
+    text-align: center;
+}
 /*Para que todos los span tengna negrita*/
 p span {
     font-weight: bold;
