@@ -138,6 +138,7 @@ form img {
   position: relative;
   /* Desplaza el contenedor del logo un 5% hacia la derecha */ 
   left: 5%; 
+  margin-top: 50px;
   /* Aplica la animación moveLogo */
   animation: moveLogo 2s ease-in-out infinite alternate; 
 }
