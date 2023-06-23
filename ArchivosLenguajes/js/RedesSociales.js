@@ -15,7 +15,7 @@ function redirigir(redSocial) {
         break;
         // Redirigir a Gmail
       case 'gmail':
-        window.location.href = 'valletraslasierracb@gmail.com';
+        window.location.href = 'mailto:valletraslasierracb@gmail.com';
         break;
         // Redirigir a WhatsApp
       case 'whatsaap':
