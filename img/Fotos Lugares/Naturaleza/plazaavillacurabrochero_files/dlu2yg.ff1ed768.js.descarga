@@ -1,1 +1,0 @@
-(this.$WP=this.$WP||[]).push(["dlu2yg",(t,u)=>{"use strict";var e,r;function n(t,u=null){var n=e(u);return r((()=>{n.current=t})),n.current}return t("default",n),[()=>{t("default",n)},[t=>(e=t.useRef,r=t.useEffect)]]},["1o4yt4"]]);

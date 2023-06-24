@@ -1,1 +1,0 @@
-(this.$WP=this.$WP||[]).push(["02sgqj",(t,e)=>{"use strict";var r,a,s=()=>{var t=r();return!a.has(t)};return[()=>{a=new Set(["zh","iw","ar","el","ja","ko","ru","th","vi"]),t("default",s)},[t=>r=t.useLanguage]]},["17thqz"]]);
