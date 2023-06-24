@@ -459,3 +459,129 @@ p span {
     width: 400px;
     height: 200px;
 }
+
+/* Todas las imagenes de Cultura que visitar */
+
+
+/* Museo piedra Cruz Sur Mina Clavero img */
+#mpcsmc .img-mpcsmc-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Anfiteatro Municipal de Mina Clavero img */
+#ammc .img-ammc-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Teatro Español Villa Dolores img */
+#tevd .img-tevd-unica {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 220px;
+}
+
+/* Teatro Griego Villa Dolores img */
+#tgvd .img-tgvd-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Museo de Villa Dolores img */
+#mvd .img-mvd-unicas2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 220px;
+}
+
+/* Santuario nuestra Señora del transito Villa Cura Brochero img */
+#snsvd .img-snsvd-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Museo Brocheriano Villa Cura Brochero img */
+#mbvcb .img-mbvcb-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Museo polifacético Rocsen Nono img */
+#mprn .img-mprn-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Iglesia San Juan Bautista Nono img */
+#isjbn .img-isjbn-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Iglesia de la Virgen de la Merced Layuba img */
+#ivml .img-ivml-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Monumento a la india Panaholma y su Leyenda img */
+#mip .img-mip-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Capilla de las Palmas Salsacate img */
+#cps .img-cps-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* El Fogón San Pedro img */
+#fsp .img-fsp-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Iglesia San Pedro img */
+#isp .img-isp-unicas2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 220px;
+}
