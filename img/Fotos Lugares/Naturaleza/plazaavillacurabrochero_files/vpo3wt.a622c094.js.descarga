@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["vpo3wt",(e,t)=>{"use strict";var r,a=({pageLayoutOverride:e})=>{switch(e){case"b2b-narrow":return"qWyeO";case"b2b-wide":return"OiOtR";default:return}},s=e=>null!=e?r[e]:void 0;return[()=>{e({THEME_COLOR_HEX:"#34e0a1",getBodyElementClassName:s,pageLayoutOverride:a,themeClassNames:r={LIGHT:void 0,DARK:"RIEYs",AUTO:"yyXnJ"}})},[]]},[]]);

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["l47ri7",(r,e)=>{"use strict";var t,a,u,s=(r,e)=>{var[s,o]=u(r),i=t((()=>{o({requestPolicy:"network-only"})}),[o]);return a((()=>{var r=e(s.data);return[{...s,data:r,operation:void 0},i]}),[i,e,s])};return[()=>{r("default",s)},[r=>(t=r.useCallback,a=r.useMemo),r=>u=r.useQuery]]},["1o4yt4","1mqwhq"]]);

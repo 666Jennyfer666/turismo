@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["1u9jlw",(e,t)=>{"use strict";var r,h,T,m,s=()=>h(T);return[()=>{m=(T=r({theme:"LIGHT",themePreferenceOrAuto:"LIGHT",canChangeThemes:!1,setTheme:()=>{},setThemeLocal:()=>{}})).Provider,e({ThemeContext:T,ThemeProvider:m,defaultTheme:"LIGHT",defaultThemePreferenceOrAuto:"LIGHT",useTheme:s})},[e=>(r=e.createContext,h=e.useContext)]]},["1o4yt4"]]);

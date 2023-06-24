@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["1k64pu",(t,r)=>{"use strict";function e(t,r){if(null==r||0===r){var e=t.toLowerCase().split("|").map((t=>{var r=t.split("x")[1];return parseInt(r,10)}));return 6*Math.max(...e)}return"string"==typeof r?parseInt(r,10):r}return t("getMinRailHeight",e),[()=>{t("getMinRailHeight",e)},[]]},[]]);

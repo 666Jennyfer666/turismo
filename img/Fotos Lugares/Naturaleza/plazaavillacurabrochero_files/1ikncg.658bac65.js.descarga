@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["1ikncg",(a,i)=>{"use strict";var r,e,l,n=()=>{var{localize:a}=r(),i=a.string("common_Loading");return l("div",{className:"c Ml Nl MK NN",children:l(e,{variant:"large","aria-label":i})})};return[()=>{a("default",n)},[a=>r=a.useLocalize,a=>e=a.Spinner,a=>l=a.jsx]]},["17thqz","1qndsd","121h32"]]);

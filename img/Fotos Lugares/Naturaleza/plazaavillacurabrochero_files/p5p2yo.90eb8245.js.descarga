@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["p5p2yo",(e,r)=>{"use strict";var s,t,o,i=()=>t(o).version,n=()=>t(o).deviceId;return[()=>{e({LithiumBootstrapContext:o=s({deviceId:"",version:"unknown",ssrLogs:[],renderError:null,stagingError:null,debugTool:!1,serviceCalls:[],serviceWorker:!1}),useDeviceId:n,useLithiumVersion:i})},[e=>(s=e.createContext,t=e.useContext)]]},["1o4yt4"]]);

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["ebif6s",(t,e)=>{"use strict";var s=({model:t})=>t.text;return[()=>{t("default",s)},[]]},[]]);

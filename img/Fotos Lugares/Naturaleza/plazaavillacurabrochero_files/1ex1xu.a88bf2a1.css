@@ -1,0 +1,1 @@
+.CvDIt{box-shadow:var(--shadowMedium);left:16px;top:16px}.CvDIt:not(:focus-within){opacity:0;-webkit-transform:translateY(calc(-100% - 16px));-ms-transform:translateY(calc(-100% - 16px));transform:translateY(calc(-100% - 16px));transition:.5s var(--trip-ease) .1s,opacity linear .1s .5s}

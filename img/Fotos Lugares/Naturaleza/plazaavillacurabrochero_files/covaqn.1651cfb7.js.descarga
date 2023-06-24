@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["covaqn",(s,a)=>{"use strict";var t,e,r,u=s=>r("hr",{className:t("RMdFe",e(s))});return[()=>{s("default",u)},[s=>(t=s.default,e=s.margin),s=>r=s.jsx]]},["gw8uw6","121h32"]]);

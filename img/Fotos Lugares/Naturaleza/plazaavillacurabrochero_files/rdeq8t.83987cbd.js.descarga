@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["rdeq8t",(e,r)=>{"use strict";var t;function n(e){var r="MOBILE"===t().userAgentCategory;switch(e){case"newTab":return"_blank";case"newTabDesktop":return r?"_self":"_blank";default:return"_self"}}return e("useLinkTarget",n),[()=>{e("useLinkTarget",n)},[e=>t=e.useUserAgent]]},["1nnprh"]]);

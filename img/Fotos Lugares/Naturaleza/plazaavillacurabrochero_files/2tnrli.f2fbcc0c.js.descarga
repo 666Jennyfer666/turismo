@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["2tnrli",(e,t)=>{"use strict";var u,a=()=>{var{hotels:e}=u();return!(null==e||!e.checkInDate||null==e||!e.checkOutDate||null!=e&&e.defaultDates)};return[()=>{e("useIsDated",a)},[e=>u=e.useTravelInfo]]},["1etaac"]]);

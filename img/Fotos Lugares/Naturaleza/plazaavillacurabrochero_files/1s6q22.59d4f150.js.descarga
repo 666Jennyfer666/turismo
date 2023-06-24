@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["1s6q22",(r,e)=>{"use strict";var t,s,i,n,d,u=()=>s(n),P=({src:r,dispatch:e,...t})=>{var s=u(),n=/^\//.test(r)?"":"/";return i("img",{...t,src:`${s}${n}${r}`})};return[()=>{d=(n=t("")).Provider,r({CdnImage:P,CdnPrefixProvider:d,useCdnPrefix:u})},[r=>(t=r.createContext,s=r.useContext),r=>i=r.jsx]]},["1o4yt4","121h32"]]);

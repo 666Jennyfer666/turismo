@@ -1,0 +1,9 @@
+Adform=window.Adform||{};
+Adform.host="https://a1.adform.net";
+Adform.shost="https://s2.adform.net";
+Adform.scriptBase=Adform.shost+"/banners/scripts/";
+Adform.cache="628";
+Adform.ADFBannerData={"URL":"https://a1.adform.net/adfserve/?bn=63476915;click=https://nym1-ib.adnxs.com/click?0X27Bd0e-j-mkksZ9_D1PwAAACCF6xNASyWXWkpx_j-tNCkF3R4CQDWPCwl8fNBwIFCOXjvStjY3PpdkAAAAAGVfFwHLAQAApyMAAAIAAAC1mtMZneYfAAAAAABVU0QAVVNEANgCWgC0AgAAAAABAgUCAAAAAAAAdCLuOwAAAAA./bcr=AAAAAAAA8D8=/cnd=%21XRPpYAiUzusYELW1zs4BGJ3NfyAAKAAxAAAAAAAAAAA6CU5ZTTI6NjQ3M0DtQ0mzJEBNLVvtP1EAAAAAAAAAAFkAAAAAAAAAAGEAAAAAAAAAAGkAAAAAAAAAAHEAAAAAAAAAAHgAiQEAAAAAAADwPw../cca=OTEyNyNOWU0yOjY0NzM=/bn=98966/clickenc=;encodedclick=https%3A%2F%2Fnym1-ib.adnxs.com%2Fclick%3F0X27Bd0e-j-mkksZ9_D1PwAAACCF6xNASyWXWkpx_j-tNCkF3R4CQDWPCwl8fNBwIFCOXjvStjY3PpdkAAAAAGVfFwHLAQAApyMAAAIAAAC1mtMZneYfAAAAAABVU0QAVVNEANgCWgC0AgAAAAABAgUCAAAAAAAAdCLuOwAAAAA.%2Fbcr%3DAAAAAAAA8D8%3D%2Fcnd%3D%2521XRPpYAiUzusYELW1zs4BGJ3NfyAAKAAxAAAAAAAAAAA6CU5ZTTI6NjQ3M0DtQ0mzJEBNLVvtP1EAAAAAAAAAAFkAAAAAAAAAAGEAAAAAAAAAAGkAAAAAAAAAAHEAAAAAAAAAAHgAiQEAAAAAAADwPw..%2Fcca%3DOTEyNyNOWU0yOjY0NzM%3D%2Fbn%3D98966%2Fclickenc%3D;ord=1387016304","CREFURL":"https%3a%2f%2fac6ac4a67576df91d406317fe986ac5e.safeframe.googlesyndication.com%2f","BN":63476915,"READ_CONSENT":true};
+if(!Adform.ADFBannerParams)Adform.ADFBannerParams=[];
+Adform.ADFBannerParams.push(Adform.ADFBannerData);
+typeof Adform.ADFUtilInstance=="undefined"?document.write('<scr'+'ipt type="text/javascript" src="https://s2.adform.net/stoat/628/s2.adform.net/bootstrap.js"></scr'+'ipt>'):new Adform.ADFBanner();

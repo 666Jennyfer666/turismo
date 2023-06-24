@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["yau6qy",(e,t)=>{"use strict";var s,a,i={__key:0xba6039385f44,id:"ba6039385f4493938c3e8d3821471da5",loc:{},definitions:[]},u=()=>{var e=a();return s((t=>e.mutation(i,{request:{clientRequestTimestampMs:Date.now(),request:[t]}}).toPromise()),[e])};return[()=>{e("default",u)},[e=>s=e.useCallback,e=>a=e.useClient]]},["1o4yt4","1mqwhq"]]);
