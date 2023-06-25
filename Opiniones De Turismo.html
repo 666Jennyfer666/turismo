@@ -6,27 +6,125 @@
     <link rel="stylesheet" href="/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpinionesDeTurismo</title>
+    <!-- Conexión con Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
+    <!-- Conexion de CSS -->
+    <link rel="stylesheet" href="/ArchivosLenguajes/css/estiloOpinionTurismo.css">
+
 </head>
 <body>
-    <h1>Reseña de tu experiencia</h1>
-<div>
+    <!-- Conexión con Bootstrap JS -->
+    <script src="Bootstrap/JS/bootstrap.js"></script>
+
+   <!-- Barra de navegación con fondo negro y letra clara -->
+    
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Turismo Traslasierra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Los ítems que van en la barra de navegación -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!-- Item de la barra que redirige al Inicio (index) -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+
+          <!-- Item de la barra que abre un dropdown para ver las opciones de páginas de Qué visitar -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownQueVisitar" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Qué visitar
+              </a>
+
+              <!-- Opciones de "Qué visitar" -->
+              <ul class="dropdown-menu" aria-labelledby="dropdownQueVisitar">
+                
+                <!-- Item del dropdown que redirige a Cultura de Qué visitar -->
+                <li><a class="dropdown-item" href="CulturaQueVisitar.html">Cultura</a></li>
+
+                <!-- Item del dropdown que redirige a Lugares Turísticos de Qué visitar -->
+                <li><a class="dropdown-item" href="LugaresTuristicosQueVisitar.html">Lugares Turísticos</a></li>
+
+                <!-- Item del dropdown que redirige a Naturaleza de Qué visitar -->
+                <li><a class="dropdown-item" href="NaturalezaQueVisitar.html">Lugares con Naturaleza</a></li>
+
+                <!-- Item del dropdown que redirige a opinion turismo -->
+                <li><a class="dropdown-item" href="Opiniones De Turismo.html">¿visitaste estos lugares?</a></li>
+
+              </ul>
+          </li>
+
+          <!-- Item de la barra que redirige a Localidades -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Localidad.html">Localidades</a>
+          </li>
+
+          <!-- Item de la barra que abre un dropdown para ver las opciones de páginas de Información Útil -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownInfoUtil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Información Útil
+            </a>
+
+            <!-- Opciones de "Información Útil" -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownInfoUtil">
+
+              <!-- Item del dropdown que redirige a Transporte de Información Útil -->
+              <li><a class="dropdown-item" href="transporte.html">Transporte</a></li>
+
+              <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
+              <li><a class="dropdown-item" href="hospedaje.html">Hospedaje</a></li>
+
+              <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
+              <li><a class="dropdown-item" href="Gastronomia.html">Gastronomia</a></li>
+
+            </ul>
+          </li>
+
+          <!-- Item de la barra que redirige a las Preguntas Frecuentes -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="PreguntasFrecuentes.html">FAQ</a>
+          </li>
+
+          <!-- Item de la barra que redirige a Consulta -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Consulta.html">Consulta</a>
+          </li>
+
+          <!-- Item de la barra que redirige a Notificaciones -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Notificaciones.html">Notificaciones</a>
+          </li>
+
+          <!-- Item de la barra que redirige a Términos y Condiciones -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="términos y condiciones.html">Términos y Condiciones</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+    <h1 class="text-center">Reseña tu experiencia</h1>
+<div class="text-center">
     <p>Valoramos tu perspectiva y nos encantaría que compartieras tus impresiones con respecto a las atracciones visitadas que se encuentren en el sitio web, destacando los aspectos que consideres más relevantes y brindando cualquier sugerencia o comentario que puedas tener.</p>
 </div>
     <form action="GET">
-    <div>
-        <label for="Nombreusuario">Nombre</label>
-        <input type="text" id="Nombreusuario">
-    
+    <div class="container">
+        <label for="Nombreusuario" class="form-label">Nombre</label>
+        <input type="text" name="" maxlength="30" minlength="3" class="form-control" id="Nombreusuario" required>
     </div>
-
-        <label for="Apellidousuario">Apellido</label>
-
-        <input type="text" id="Apellidousuario">
+    <div class="container">
+        <label for="Apellidousuario" class="form-label">Apellido</label>
+        <input type="text" name="" maxlength="30" minlength="3" class="form-control" id="Apellidousuario">
+    </div>
     
-    <div>
-   <div>
-    <label for="mySelect">Que visitar</label>
-    <select name="select" id="mySelect">
+   <div class="container">
+    <label for="mySelect" class="form-label" style="padding-bottom: 20px;">Cual localidad visitaste </label>
+    <select name="select" id="mySelect" style="margin-top: 40px;">
         <option value="value1">Mina Clavero</option>
         <option value="value2">Villa Dolores</option>
         <option value="value3">Yacanto</option>
@@ -45,59 +143,61 @@
     </select>
 </div>
 
-<div>
-    <label for="mySelect">Que atraccion visitaste</label>
-    <select name="select" id="mySelect">
-<option value="value1">Acqualandia Park Mina Clavero</option>
-<option value="value2">Casino de Mina Clavero</option>
-<option value="value3">Festival de la Papa Villa Dolores</option>
-<option value="value4">Feria Franca Villa Dolores</option>
-<option value="value5">Eter Cine Villa Dolores</option>
-<option value="value6">El laverinto de Nono</option>
-<option value="value7">Feria de artesanos, productores y elavoradores Villa de las Rosas</option>
-<option value="value8">Balneario Municipal Guasmara Villa de las Rosas</option>
-<option value="value9">Serpentario Machaqway Villa de las Rosas </option>
-<option value="value1">Golf Club Yacanto</option>
-<option value="value10">ArtesaniasVicentino y producciones Yacanto</option>
-<option value="value11">Vicentino Don Zamora Yacanto</option>
-<option value="value12">Museo de piedra Cruz Sur Mina Clavero</option>
-<option value="value13">Anfiteatro Municipal de Mina Clavero </option>
-<option value="value14">Teatro Español Villa Dolores</option>
-<option value="value15">Teatro Griego Villa Dolores </option>
-<option value="value16">Museo de Villa Dolores</option>
-<option value="value17">Santuario nuestra Señora del transito Villa Cura Brochero</option>
-<option value="value18">Museo Brocheriano Villa Cura Brochero</option>
-<option value="value19">Museo Polifacético Rocsen Nono</option>
-<option value="value20">Iglesia de la Virgen de las Merced Layuba</option>
-<option value="value21">Monumento a la India Panaholma</option>
-<option value="value22">Capilla de las Palmas Salsacate</option>
-<option value="value23">El Fogon San Pedro</option>
-<option value="value24">Capilla y Templos San Pedro</option>
-<option value="value25">Balneario Nido del Aguila Mina Clavero</option>
-<option value="value26">Cascada del toro muerto Mina Clavero</option>
-<option value="value27">Piedra Pintada Villa Dolores</option>
-<option value="value28">Plaza Mitre Villa Dolores</option>
-<option value="value29">Plaza Centenario Villa Cura Brochero</option>
-<option value="value30">Granja Finca El Encanto Villa Cura Brochero</option>
-<option value="value31">Balneario la kiva Nono</option>
-<option value="value32">Balneario la kiva Nono</option>
-<option value="value33">Paso de las tropas Nono</option>
-<option value="value34">Sendero de las Sierras Embrujadas las Rabonas</option>
-<option value="value35">Dique la viña Quebrada de los Pozos</option>
-<option value="value36">Dique Nivelador Boca del Río Las Tapias</option>
-<option value="value37">Sendero Quebrada de Ambrosio San Javier y Yacanto</option>
-<option value="value38">Río Panaholma</option>
-<option value="value39">Camino de los Volcanes Salsacate</option>
-<option value="value40">Senderismo San Lorenzo</option>
+<div class="container">
+    <label for="mySelect" class="form-label" style="padding-bottom: 20px;">Que atraccion visitaste</label>
+    <select name="select" id="mySelect" style="margin-top: 10px;">
+        <option value="value1">Acqualandia Park Mina Clavero</option>
+        <option value="value2">Casino de Mina Clavero</option>
+        <option value="value3">Festival de la Papa Villa Dolores</option>
+        <option value="value4">Feria Franca Villa Dolores</option>
+        <option value="value5">Eter Cine Villa Dolores</option>
+        <option value="value6">El laverinto de Nono</option>
+        <option value="value7">Feria de artesanos, productores y elavoradores Villa de las Rosas</option>
+        <option value="value8">Balneario Municipal Guasmara Villa de las Rosas</option>
+        <option value="value9">Serpentario Machaqway Villa de las Rosas </option>
+        <option value="value1">Golf Club Yacanto</option>
+        <option value="value10">ArtesaniasVicentino y producciones Yacanto</option>
+        <option value="value11">Vicentino Don Zamora Yacanto</option>
+        <option value="value12">Museo de piedra Cruz Sur Mina Clavero</option>
+        <option value="value13">Anfiteatro Municipal de Mina Clavero </option>
+        <option value="value14">Teatro Español Villa Dolores</option>
+        <option value="value15">Teatro Griego Villa Dolores </option>
+        <option value="value16">Museo de Villa Dolores</option>
+        <option value="value17">Santuario nuestra Señora del transito Villa Cura Brochero</option>
+        <option value="value18">Museo Brocheriano Villa Cura Brochero</option>
+        <option value="value19">Museo Polifacético Rocsen Nono</option>
+        <option value="value20">Iglesia de la Virgen de las Merced Layuba</option>
+        <option value="value21">Monumento a la India Panaholma</option>
+        <option value="value22">Capilla de las Palmas Salsacate</option>
+        <option value="value23">El Fogon San Pedro</option>
+        <option value="value24">Capilla y Templos San Pedro</option>
+        <option value="value25">Balneario Nido del Aguila Mina Clavero</option>
+        <option value="value26">Cascada del toro muerto Mina Clavero</option>
+        <option value="value27">Piedra Pintada Villa Dolores</option>
+        <option value="value28">Plaza Mitre Villa Dolores</option>
+        <option value="value29">Plaza Centenario Villa Cura Brochero</option>
+        <option value="value30">Granja Finca El Encanto Villa Cura Brochero</option>
+        <option value="value31">Balneario la kiva Nono</option>
+        <option value="value32">Balneario la kiva Nono</option>
+        <option value="value33">Paso de las tropas Nono</option>
+        <option value="value34">Sendero de las Sierras Embrujadas las Rabonas</option>
+        <option value="value35">Dique la viña Quebrada de los Pozos</option>
+        <option value="value36">Dique Nivelador Boca del Río Las Tapias</option>
+        <option value="value37">Sendero Quebrada de Ambrosio San Javier y Yacanto</option>
+        <option value="value38">Río Panaholma</option>
+        <option value="value39">Camino de los Volcanes Salsacate</option>
+        <option value="value40">Senderismo San Lorenzo</option>
 
     </select>
 </div>
-
-    <label for="OpinionesDeTurismo">Opinion</label>
-    <div>
-    <textarea name="" id="" cols="25" rows="5"></textarea>
-</div>
-<input type="button" value="Subir"> <input type="button" value="Cancelar">
+    <div class="container">
+        <label for="OpinionesDeTurismo">Brindanos tu opinion:</label>
+        <div>
+        <textarea name="" id="" cols="150" rows="10"></textarea></div>
+    </div>
+    <div class="button-container">
+        <input class="centered-button" type="button" value="Subir"> <input class="centered-button" type="button" value="Cancelar">
+    </div>
 </form>
 
 
