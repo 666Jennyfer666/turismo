@@ -10,6 +10,8 @@
 
     <!-- Conexión con Bootstrap CSS -->
     <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
+    <!-- Conexion de CSS -->
+    <link rel="stylesheet" href="/ArchivosLenguajes/css/estiloNotificaciones.css">
 
   </head>
   <body>
@@ -51,6 +53,9 @@
                 <!-- Item del dropdown que redirige a Naturaleza de Qué visitar -->
                 <li><a class="dropdown-item" href="NaturalezaQueVisitar.html">Lugares con Naturaleza</a></li>
 
+                <!-- Item del dropdown que redirige a opinion turismo -->
+                <li><a class="dropdown-item" href="Opiniones De Turismo.html">¿visitaste estos lugares?</a></li>
+
               </ul>
           </li>
 
@@ -73,6 +78,9 @@
 
               <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
               <li><a class="dropdown-item" href="hospedaje.html">Hospedaje</a></li>
+
+              <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
+              <li><a class="dropdown-item" href="Gastronomia.html">Gastronomia</a></li>
 
             </ul>
           </li>
@@ -108,16 +116,16 @@
 
     <div class="container">
         <form name="formNotificaciones" class="" action="" method="get" novalidate>
-        <div class="mb-3">
-            <label for="nomnot" class="form-label">Nombre</label>
+          <div class="mb-3">
+            <img src="/img/Logos o Imagenes Pequeñas/persona 2.ico" alt="" class="imagen-text"><label for="nomnot" class="form-label">Nombre</label>
             <input type="text" name="Nombrenot" maxlength="30" minlength="3" class="form-control" id="nomnot" required>
         </div>
         <div class="mb-3">
-            <label for="apenot" class="form-label">Apellido</label>
+            <img src="/img/Logos o Imagenes Pequeñas/persona 2.ico" alt="img-persona" class="imagen-text"><label for="apenot" class="form-label">Apellido</label>
             <input type="text" name="Apellidonot" maxlength="30" minlength="3" class="form-control" id="apenot" required>
         </div>
         <div class="mb-3">
-            <label for="emailnot" class="form-label">Email</label>
+            <img src="/img/Logos o Imagenes Pequeñas/imagengmail.png" alt="img" class="imagen-text"><label for="emailnot" class="form-label">Email</label>
             <span class="input-group-text" id="input-groupPrepend">@</span>
             <input type="text" name="Emailnot" maxlength="30" minlength="3" class="form-control" id="emailnot" required>
         
@@ -127,14 +135,13 @@
             <input type="checkbox" name="cajitacepcondi" id = "caja-aceptar" required>
             <label for="caja-aceptar" class="form-label"><a target="_blank" href="términos y condiciones.html">Acepto los términos y condiciones de este sitio web</a></label>
         </div>
-        <button type="button" onclick="capturaDatosNotificacion()" class="">Enviar</button>
+        <button type="button" onclick="capturaDatosNotificacion()" class="btn-info">Enviar</button>
 
-    </form>
+        </form>
     </div>
-    
-
     <script src="ArchivosLenguajes/js/funcionamiento.js"></script>
 
 </div>
+
   </body>
 </html>
