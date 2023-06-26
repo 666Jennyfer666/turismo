@@ -29,6 +29,7 @@ button {
     padding-right: 20px;
     padding-left: 20px;
 }
+
 p {
     font-size:larger;
     hyphens: auto;
@@ -37,6 +38,7 @@ p {
 img {
     size-adjust: auto;
 }
+
 /*Centrado del header con clase centrar*/
 header .centrar {
     text-align: center;
@@ -45,6 +47,7 @@ header .centrar {
     text-decoration: none;
     color: black;
 }
+
 .centrar .Verde {
     background-color: rgb(161, 206, 161);
     margin: 25px;
@@ -53,6 +56,7 @@ header .centrar {
     padding-right: 20px;
     padding-left: 20px;
 }
+
 /*Centrar todo el texto que contenga el div con la clase centrar*/
 .centrar {
     text-align: center;
@@ -64,6 +68,7 @@ h3 {
 p span {
     font-weight: bold;
 }
+
 /* Acqualandia Park Mina Clavero img*/
 #apmc .img-apmc-1 {
     margin-top: 20px;
@@ -574,4 +579,13 @@ p span {
     margin-bottom: 50px;
     width: 350px;
     height: 220px;
+}
+
+
+/* Todo lo de las imagenes de hospedaje y transporte*/
+.img-transpo-Hospedaje {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 250px;
 }

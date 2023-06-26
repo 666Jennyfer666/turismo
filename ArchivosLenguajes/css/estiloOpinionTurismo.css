@@ -1,9 +1,11 @@
 body {
     background-color: #cdc6f8;
 }
+
 .imagen-text {
     width: 30px;
 }
+
 select {
     width: 500px;
     max-width: 700px;
@@ -14,8 +16,7 @@ select {
     justify-content: center;
   }
   
-  .centered-button {
+.centered-button {
     margin: 0 5px;
-  }
-  
-  
+    background-color: #8edcef;
+}
