@@ -1,0 +1,598 @@
+body {
+    background-color: #cdc6f8;
+}
+
+button {
+    background-color: rgb(140, 219, 219);
+    color: #fff;
+}
+
+.recuadroVioleta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5a4e1;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.recuadroCeleste {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 207, 218);
+    margin: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+p {
+    font-size:larger;
+    hyphens: auto;
+}
+
+img {
+    size-adjust: auto;
+}
+
+/*Centrado del header con clase centrar*/
+header .centrar {
+    text-align: center;
+}
+.container .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.centrar .Verde {
+    background-color: rgb(161, 206, 161);
+    margin: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*Centrar todo el texto que contenga el div con la clase centrar*/
+.centrar {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+/*Para que todos los span tengna negrita*/
+p span {
+    font-weight: bold;
+}
+
+/* Acqualandia Park Mina Clavero img*/
+#apmc .img-apmc-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+
+/*Casino Mina Clavero img*/
+#cmc .img-cmc-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#cmc .img-cmc-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Festival de la papa VD img*/
+#fpvd .img-fpvd-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#fpvd .img-fpvd-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Feria Franca VD img*/
+#ffvd .img-ffvd-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ffvd .img-ffvd-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Eter Cine VD img*/
+#ecvd .img-ecvd-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ecvd .img-ecvd-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Laberinto Del Nono*/
+#ldn .img-ldn-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ldn .img-ldn-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Feria del Artesano*/
+#fapevr .img-fapevr-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#fapevr .img-fapevr-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Balneario Municipal Guasmara VLR img*/
+#bmgvr .img-bmgvr-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#bmgvr .img-bmgvr-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Serpentario Machaqway VLR*/
+#smvr .img-smvr-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#smvr .img-smvr-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Golf Club Yacanto*/
+#gcy .img-gcy-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#gcy .img-gcy-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Artesanias y productores en San Javier y Yacanto img*/
+#apsjy .img-apsjy-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#apsjy .img-apsjy-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+/*Vicentino Don Zamora en San Vicente img*/
+#vzsv .img-vzsv-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#vzsv .img-vzsv-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;;
+}
+/*Lo que sigue es La Naturaleza img*/
+
+#bnamc .img-bnamc-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#bnamc .img-bnamc-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 200px;
+}
+/*Piedra Pintada Villa Dolores img*/
+#pcvcb .img-pcvcb-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Sendero de las Sierras Embrujadas las Rabonas img*/
+#sser .img-sser-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#sser .img-sser-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+
+/*Dique la viña Quebrada de los Pozos img*/
+#dvqp .img-dvqp-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#dvqp .img-dvqp-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Dique Nivelador Boca del Río Las Tapias img*/
+#dnbrlt .img-dnbrlt-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#dnbrlt .img-dnbrlt-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Sendero Quebrada de Ambrosio San Javier y Yacanto img*/
+#sqasjy .img-sqasjy-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#sqasjy .img-sqasjy-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Río Panaholma img*/
+#rp .img-rp-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#rp .img-rp-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Camino de los Volcanes Salsacate img*/
+#cvs .img-cvs-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#cvs .img-cvs-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Senderismo San Lorenzo img*/
+#ssl .img-ssl-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ssl .img-ssl-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+
+/* Paso de las tropas nono*/
+#ptn .img-pdlt-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ptn .img-pdlt-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Balneario nono*/
+#bn .img-bn-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#bn .img-bn-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Balneario la kiva nono*/
+#bkn .img-blkn-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#bkn .img-blkn-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Granja Finca El Encanto Villa Cura Brochero */
+#gfevcb .img-gfecvcb-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#gfevcb .img-gfecvcb-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Plaza Centenario Villa Cura Brochero */
+#pcvcb .img-pcvcb-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#pcvcb .img-pcvcb-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Plaza Mitre Villa Dolores */
+#pmvd .img-pmvd-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#pmvd .img-pmvd-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Piedra Pintada Villa Dolores */
+#ppvd .img-ppvd-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ppvd .img-ppvd-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Cascada del toro muerto Mina Clavero */
+#ctmmc .img-ctmmc-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+#ctmmc .img-ctmmc-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Todas las imagenes de Cultura que visitar */
+
+
+/* Museo piedra Cruz Sur Mina Clavero img */
+#mpcsmc .img-mpcsmc-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Anfiteatro Municipal de Mina Clavero img */
+#ammc .img-ammc-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Teatro Español Villa Dolores img */
+#tevd .img-tevd-unica {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 220px;
+}
+
+/* Teatro Griego Villa Dolores img */
+#tgvd .img-tgvd-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Museo de Villa Dolores img */
+#mvd .img-mvd-unicas2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 220px;
+}
+
+/* Santuario nuestra Señora del transito Villa Cura Brochero img */
+#snsvd .img-snsvd-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Museo Brocheriano Villa Cura Brochero img */
+#mbvcb .img-mbvcb-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Museo polifacético Rocsen Nono img */
+#mprn .img-mprn-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Iglesia San Juan Bautista Nono img */
+#isjbn .img-isjbn-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Iglesia de la Virgen de la Merced Layuba img */
+#ivml .img-ivml-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Monumento a la india Panaholma y su Leyenda img */
+#mip .img-mip-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Capilla de las Palmas Salsacate img */
+#cps .img-cps-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* El Fogón San Pedro img */
+#fsp .img-fsp-todas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 220px;
+    display: inline;
+}
+
+/* Iglesia San Pedro img */
+#isp .img-isp-unicas2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 220px;
+}
+
+
+/* Todo lo de las imagenes de hospedaje, transporte y gastronomia*/
+.img-transpo-Hospedaje {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 250px;
+}
+
+.parrafos-container-gastronomia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }

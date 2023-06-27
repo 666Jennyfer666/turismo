@@ -1,0 +1,158 @@
+.inicio {
+    background-color: #cdc6f8;
+}
+header {
+    display: flex;
+    background-image: url(/img/fondos/img\ traslasierra\ recortada\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+.titulo {
+    text-align: center;
+    margin: auto;
+    margin-right:auto;
+}
+header img {
+    align-items: center;
+    max-width: 15%;
+    background-size: cover;
+    
+}
+.inicio h2 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    /* Grosor de fuente: 500 */
+    font-weight: 500;
+}
+#fondo2 {
+    background-image: url(/img/fondos/img\ traslasierra\ recortada\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding: 7px;
+}
+form img {
+    align-items: center;
+    max-width: 10%;
+    background-size: cover;
+}
+/*Estilos para el Carrusel*/
+#miCarrusel {
+    width: 100%;
+}
+
+/* Estilos para las imagenes en el carrusel */
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-inner img {
+    margin-top: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+/* Estilos para la clase .contact-info */
+.contact-info {
+    /* Muestra los elementos como una línea horizontal */
+    display: flex;
+    /* Alinea los elementos al extremo derecho */
+    justify-content: flex-end;
+}
+/* Estilos para la clase .redes-sociales */
+.redes-sociales {
+    /* Muestra los elementos como una línea horizontal */
+    display: flex;
+    /* Ancho fijo de 210 píxeles */
+    width: 210px;
+    /* Cambie la dirección de los elementos a una columna */
+    flex-direction: column;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Cambie el cursor a un ícono de puntero al pasar el mouse sobre los elementos */
+    cursor: pointer;
+    
+  }
+  /* Estilos para la clase .imagen-pequena */
+  .imagen-pequena {
+    /* Ancho fijo de 25 píxeles para las imágenes de las redes sociales */
+    width: 25px;
+    margin-bottom: 10px;
+  }
+
+
+  /* Estilos para el titulo <h1> con el ID "interletrado-titulo" */
+  #interletrado-titulo {
+    /* Espaciado entre letras */
+    letter-spacing: 18px;
+    /* Tipo de fuente: Roboto, una fuente sans-serif */
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    /* Grosor de fuente: 500 */
+    font-weight: 500;
+    /* Posición relativa */
+    position: relative;
+    /* Cambiar el cursor a una mano para indicar que es interactivo */
+    cursor: pointer;
+  }
+  /* Estilos para los elementos span dentro de #interletrado-titulo */
+  #interletrado-titulo span {
+    /* Posición relativa */
+    position: relative;
+    /* Mostrar en línea como elementos en bloque */
+    display: inline-block;
+    /* Transición suave de 0.4 segundos al aplicar transformaciones */
+    transition: transform 0.4s ease;
+  }
+  /* Estilos para los elementos span en posiciones impares dentro de #interletrado-titulo */
+  #interletrado-titulo span:nth-child(odd) {
+    /* Establece el origen de la transformacion en la parte inferior */
+    transform-origin: bottom;
+  }
+  /* Estilos para los elementos span en posiciones pares dentro de #interletrado-titulo */
+  #interletrado-titulo span:nth-child(even) {
+    /* Establecer el origen de transformación en la parte superior */
+    transform-origin: top;
+  }
+  /* Estilos al pasar el mouse por encima de los elementos span en posiciones impares dentro de #interletrado-titulo */
+  #interletrado-titulo:hover span:nth-child(odd) {
+    /* Mover hacia arriba 14px al pasar el mouse */
+    transform: translateY(-14px);
+  }
+  /* Estilos al pasar el mouse por encima de los elementos span en posiciones pares dentro de #interletrado-titulo */
+  #interletrado-titulo:hover span:nth-child(even) {
+    /* Mover hacia abajo 14px al pasar el mouse */
+    transform: translateY(14px);
+  }
+  
+
+/* Define los estilos del contenedor del logo */
+.logo-container {
+  /* Posicionamiento relativo */
+  position: relative;
+  /* Desplaza el contenedor del logo un 5% hacia la derecha */ 
+  left: 5%; 
+  margin-top: 50px;
+  /* Aplica la animación moveLogo */
+  animation: moveLogo 2s ease-in-out infinite alternate; 
+}
+
+/* Define los keyframes de la animación moveLogo */
+@keyframes moveLogo {
+  0% {
+    /* Sin desplazamiento vertical al inicio */
+    transform: translateY(0); 
+  }
+  100% {
+    /* Ajusta el valor para controlar el movimiento vertical en pixeles */
+    transform: translateY(15px); 
+  }
+}
+
+  

@@ -7,9 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <app-root></app-root>
-  
+  <!-- Conexión con Bootstrap JS -->
+  <script src="/appturismotraslasierra/src/styles.css"></script>Bootstrap/JS/bootstrap.js
   <!-- Barra de navegación con fondo negro y letra clara -->
  
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,8 +47,11 @@
               <!-- Item del dropdown que redirige a Naturaleza de Qué visitar -->
               <li><a class="dropdown-item" href="NaturalezaQueVisitar.html">Lugares con Naturaleza</a></li>
 
+              <!-- Divisor del dropdown -->
+              <li><hr class="dropdown-divider"></li>
+
               <!-- Item del dropdown que redirige a opinion turismo -->
-              <li><a class="dropdown-item" href="Opiniones De Turismo.html">¿visitaste estos lugares?</a></li>
+              <li><a class="dropdown-item" href="Opiniones De Turismo.html">¿Ya has visitado estos lugares?</a></li>
 
             </ul>
         </li>
@@ -101,5 +106,43 @@
     </div>
   </div>
 </nav>
+
+<header>
+  <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" alt="Imagen del logo">
+  <!-- Esta etiqueta <h1> muestra el titulo de nuestro sitio web -->
+  <h1 id="interletrado-titulo" class="titulo">TRASLASIERRA</h1>
+</header>
+
+<footer>
+  <div id="fondo2">
+    <div class="form-range" id="calf">
+
+        <!-- Creo un contenedor con la clase logo-container-->
+        <div>
+          <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" class="logo-container" alt="Logo" height="100">
+        </div>
+
+    </div>
+    
+      <!-- Creo el pie de la pagina referido a redes sociales -->
+      <footer class="contact-info">
+        <!-- Creo listas desordenadas sin viñeta -->
+          <ul class="redes-sociales" style="list-style-type: none;">
+            <!-- Imagen de Facebook con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/faceb.png" alt="Facebook" onclick="redirigir('facebook')" class="imagen-pequena"></li>
+            <!-- Imagen de Twitter con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imgtwitter.png" alt="Twitter" onclick="redirigir('twitter')" class="imagen-pequena"></li>
+            <!-- Imagen de Instagram con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imageninsta.png" alt="Instagram" onclick="redirigir('instagram')" class="imagen-pequena"></li>
+            <!-- Imagen de Gmail con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagengmail.png" alt="Gmail" onclick="redirigir('gmail')" class="imagen-pequena"></li>
+            <!-- Imagen de Whatsapp con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagenwasap.png" alt="Whatsapp" onclick="redirigir('whatsaap')" class="imagen-pequena"></li>
+          </ul>
+      </footer>
+  </div>
+    <script src="ArchivosLenguajes/js/RedesSociales.js"></script>
+  </footer>
+
 </body>
 </html>
