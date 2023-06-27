@@ -10,6 +10,8 @@
     <!-- Conexion de CSS -->
     <link rel="stylesheet" href="/ArchivosLenguajes/css/estiloOpinionTurismo.css">
 
+    <link rel="stylesheet" href="ArchivosLenguajes/css/index.css">
+
 </head>
 <body>
     <!-- Conexión con Bootstrap JS -->
@@ -54,7 +56,7 @@
                 <li><hr class="dropdown-divider"></li>
 
                 <!-- Item del dropdown que redirige a opinion turismo -->
-                <li><a class="dropdown-item" href="Opiniones De Turismo.html">¿Ya has visitado estos lugares?</a></li>
+                <li><a class="dropdown-item active" href="Opiniones De Turismo.html">¿Ya has visitado estos lugares?</a></li>
 
               </ul>
           </li>
@@ -97,7 +99,7 @@
 
           <!-- Item de la barra que redirige a Notificaciones -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Notificaciones.html">Notificaciones</a>
+            <a class="nav-link" aria-current="page" href="Notificaciones.html">Notificaciones</a>
           </li>
 
           <!-- Item de la barra que redirige a Términos y Condiciones -->
@@ -109,6 +111,12 @@
       </div>
     </div>
   </nav>
+
+  <header>
+    <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" alt="Imagen del logo">
+    <!-- Esta etiqueta <h1> muestra el titulo de nuestro sitio web -->
+    <h1 id="interletrado-titulo" class="titulo">TRASLASIERRA</h1>
+  </header>
    
     <h1 class="text-center">Reseña tu experiencia</h1>
 <div class="text-center">
@@ -179,7 +187,6 @@
         <option value="value28">Plaza Mitre Villa Dolores</option>
         <option value="value29">Plaza Centenario Villa Cura Brochero</option>
         <option value="value30">Granja Finca El Encanto Villa Cura Brochero</option>
-        <option value="value31">Balneario la kiva Nono</option>
         <option value="value32">Balneario la kiva Nono</option>
         <option value="value33">Paso de las tropas Nono</option>
         <option value="value34">Sendero de las Sierras Embrujadas las Rabonas</option>
@@ -201,5 +208,36 @@
     </div>
 </form>
 <script src="ArchivosLenguajes/js/OpinionTurismo.js"></script>
+
+<footer>
+  <div id="fondo2">
+    <div class="form-range" id="calf">
+
+        <!-- Creo un contenedor con la clase logo-container-->
+        <div>
+          <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" class="logo-container" alt="Logo" height="100">
+        </div>
+
+    </div>
+    
+      <!-- Creo el pie de la pagina referido a redes sociales -->
+      <footer class="contact-info">
+        <!-- Creo listas desordenadas sin viñeta -->
+          <ul class="redes-sociales" style="list-style-type: none;">
+            <!-- Imagen de Facebook con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/faceb.png" alt="Facebook" onclick="redirigir('facebook')" class="imagen-pequena"></li>
+            <!-- Imagen de Twitter con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imgtwitter.png" alt="Twitter" onclick="redirigir('twitter')" class="imagen-pequena"></li>
+            <!-- Imagen de Instagram con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imageninsta.png" alt="Instagram" onclick="redirigir('instagram')" class="imagen-pequena"></li>
+            <!-- Imagen de Gmail con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagengmail.png" alt="Gmail" onclick="redirigir('gmail')" class="imagen-pequena"></li>
+            <!-- Imagen de Whatsapp con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagenwasap.png" alt="Whatsapp" onclick="redirigir('whatsaap')" class="imagen-pequena"></li>
+          </ul>
+      </footer>
+  </div>
+    <script src="ArchivosLenguajes/js/RedesSociales.js"></script>
+  </footer>
 </body>
 </html>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
     <!-- Conexion de CSS -->
     <link rel="stylesheet" href="/ArchivosLenguajes/css/estiloNotificaciones.css">
+    <link rel="stylesheet" href="ArchivosLenguajes/css/index.css">
 
   </head>
   <body>
@@ -113,6 +114,12 @@
     </div>
   </nav>
    
+  <header>
+    <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" alt="Imagen del logo">
+    <!-- Esta etiqueta <h1> muestra el titulo de nuestro sitio web -->
+    <h1 id="interletrado-titulo" class="titulo">TRASLASIERRA</h1>
+  </header>
+
     <h1 class="text-center">NOTIFICACIONES</h1>
     <br>
     <div class="alert alert-info text-center">Complete el formulario adjunto con el fin de recibir notificaciónes acerca de las actualizaciónes del sitio web.</div>
@@ -145,6 +152,37 @@
     <script src="ArchivosLenguajes/js/funcionamiento.js"></script>
 
 </div>
+
+<footer>
+  <div id="fondo2">
+    <div class="form-range" id="calf">
+
+        <!-- Creo un contenedor con la clase logo-container-->
+        <div>
+          <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" class="logo-container" alt="Logo" height="100">
+        </div>
+
+    </div>
+    
+      <!-- Creo el pie de la pagina referido a redes sociales -->
+      <footer class="contact-info">
+        <!-- Creo listas desordenadas sin viñeta -->
+          <ul class="redes-sociales" style="list-style-type: none;">
+            <!-- Imagen de Facebook con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/faceb.png" alt="Facebook" onclick="redirigir('facebook')" class="imagen-pequena"></li>
+            <!-- Imagen de Twitter con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imgtwitter.png" alt="Twitter" onclick="redirigir('twitter')" class="imagen-pequena"></li>
+            <!-- Imagen de Instagram con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imageninsta.png" alt="Instagram" onclick="redirigir('instagram')" class="imagen-pequena"></li>
+            <!-- Imagen de Gmail con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagengmail.png" alt="Gmail" onclick="redirigir('gmail')" class="imagen-pequena"></li>
+            <!-- Imagen de Whatsapp con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagenwasap.png" alt="Whatsapp" onclick="redirigir('whatsaap')" class="imagen-pequena"></li>
+          </ul>
+      </footer>
+  </div>
+    <script src="ArchivosLenguajes/js/RedesSociales.js"></script>
+  </footer>
 
   </body>
 </html>

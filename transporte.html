@@ -11,6 +11,8 @@
     <!-- Conexion de pagina a CSS -->
     <link rel="stylesheet" href="/ArchivosLenguajes/css/estilos.css">
 
+    <link rel="stylesheet" href="ArchivosLenguajes/css/index.css">
+
   </head>
   <body>
 
@@ -111,7 +113,14 @@
        </div>
      </div>
    </nav>
-   <header class="centrar">
+
+   <header>
+    <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" alt="Imagen del logo">
+    <!-- Esta etiqueta <h1> muestra el titulo de nuestro sitio web -->
+    <h1 id="interletrado-titulo" class="titulo">TRASLASIERRA</h1>
+  </header>
+
+   <div class="centrar">
     <h1>Transporte Para ir a El Valle de Traslasierra</h1>
     <p>Aquí tienes a tu disposición diversas alternativas de transporte para llegar a la hermosa región de
          Traslasierras, cada una de ellas con una breve descripción que te servirá como punto de partida,
@@ -119,7 +128,7 @@
          para obtener información adicional y garantizar la elección más adecuada
           a tus necesidades y preferencias.
     </p>
-   </header>
+  </div>
 <!-- Creo listas desordenadas de los transportes y agrego parrafos para la descripción de cada uno -->
 
 <h3>Transporte</h3>
@@ -175,6 +184,36 @@
 <img class="img-transpo-Hospedaje" src="img/Fotos Lugares/Transporte/imagenterminalenminaclaver(cuartoenlalistad).jpg">
 <img class="img-transpo-Hospedaje" src="img/Fotos Lugares/Transporte/imagenterminalenminaclavero(cuartoenlalista).jpg">
 
+<footer>
+  <div id="fondo2">
+    <div class="form-range" id="calf">
+
+        <!-- Creo un contenedor con la clase logo-container-->
+        <div>
+          <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" class="logo-container" alt="Logo" height="100">
+        </div>
+
+    </div>
+    
+      <!-- Creo el pie de la pagina referido a redes sociales -->
+      <footer class="contact-info">
+        <!-- Creo listas desordenadas sin viñeta -->
+          <ul class="redes-sociales" style="list-style-type: none;">
+            <!-- Imagen de Facebook con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/faceb.png" alt="Facebook" onclick="redirigir('facebook')" class="imagen-pequena"></li>
+            <!-- Imagen de Twitter con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imgtwitter.png" alt="Twitter" onclick="redirigir('twitter')" class="imagen-pequena"></li>
+            <!-- Imagen de Instagram con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imageninsta.png" alt="Instagram" onclick="redirigir('instagram')" class="imagen-pequena"></li>
+            <!-- Imagen de Gmail con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagengmail.png" alt="Gmail" onclick="redirigir('gmail')" class="imagen-pequena"></li>
+            <!-- Imagen de Whatsapp con redireccionamiento a través de la función 'redirigir' -->
+            <li><img src="img/Logos o Imagenes Pequeñas/imagenwasap.png" alt="Whatsapp" onclick="redirigir('whatsaap')" class="imagen-pequena"></li>
+          </ul>
+      </footer>
+  </div>
+    <script src="ArchivosLenguajes/js/RedesSociales.js"></script>
+  </footer>
 
   </body>
 </html>
