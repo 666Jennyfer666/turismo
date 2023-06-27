@@ -1,0 +1,7 @@
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLocalidades.resources
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\molin\OneDrive\Escritorio\VIsual Estudio\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
