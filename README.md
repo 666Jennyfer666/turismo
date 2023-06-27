@@ -5,4 +5,5 @@ En este repositorio tenemos estas carpetas colocadas para realizar todo el proye
 img (Esta es donde tenemos guardadas mas carpetas con las imagenes utlizadas en todo el proyecto, en la cual se encuentran con sus respectivos nombres)
 appturismotraslasierra (Contiene la aplicacion de Angular)
 NO_USAR (Pruebas de html que no los utilizamos)
-Maquetado_Organizacion del proyecto (En este se encuentra)
+Maquetado_Organizacion del proyecto (En este se encuentra una carpeta con el maquetado , hay un pdf explicando el proceso del trabajo y excel con explicaciones de como nos organizamos como grupo)
+
