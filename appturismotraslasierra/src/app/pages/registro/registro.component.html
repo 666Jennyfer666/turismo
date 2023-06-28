@@ -1,0 +1,93 @@
+<!-- Registro opinion turismo -->
+
+<h1 class="text-center">Reseña tu experiencia</h1>
+<div class="text-center">
+    <p>Valoramos tu perspectiva y nos encantaría que compartieras tus impresiones con respecto a las atracciones visitadas que se encuentren en el sitio web, destacando los aspectos que consideres más relevantes y brindando cualquier sugerencia o comentario que puedas tener.</p>
+</div>
+    <form>
+    <div class="container">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" name="NombreusuarioV" maxlength="30" minlength="3" class="form-control" id="nombre" required>
+    </div>
+    <div class="container">
+        <label for="apellido" class="form-label">Apellido</label>
+        <input type="text" name="ApellidousuarioV" maxlength="30" minlength="3" class="form-control" id="apellido" required>
+    </div>
+    
+   <div class="container">
+    <label for="localidad" class="form-label" style="padding-bottom: 20px;">Cual localidad visitaste </label>
+    <select name="localidadVisitada" id="localidad" style="margin-top: 40px;" required>
+        <option value="value1">
+            Mina Clavero</option>
+        <option value="value2">Villa Dolores</option>
+        <option value="value3">Yacanto</option>
+        <option value="value3">San Javier</option>
+        <option value="value5">San Pedro</option>
+        <option value="value6">San Vicente</option>
+        <option value="value7">Salsacate</option>
+        <option value="value8">Nono</option>
+        <option value="value9">Panaholma</option>
+        <option value="value10">Luyaba</option>
+        <option value="value11">San Lorenzo</option>
+        <option value="value12">Las Tapias</option>
+        <option value="value13">Quebrada de los Pozo</option>
+        <option value="value14">Las Rabonas</option>
+        <option value="value15">Cura Brochero</option>
+    </select>
+</div>
+
+<div class="container">
+    <label for="atraccion" class="form-label" style="padding-bottom: 20px;">Que atraccion visitaste</label>
+    <select name="atraccionVisitada" id="atraccion" style="margin-top: 10px;" required>
+        <option value="value1">Acqualandia Park Mina Clavero</option>
+        <option value="value2">Casino de Mina Clavero</option>
+        <option value="value3">Festival de la Papa Villa Dolores</option>
+        <option value="value4">Feria Franca Villa Dolores</option>
+        <option value="value5">Eter Cine Villa Dolores</option>
+        <option value="value6">El laverinto de Nono</option>
+        <option value="value7">Feria de artesanos, productores y elavoradores Villa de las Rosas</option>
+        <option value="value8">Balneario Municipal Guasmara Villa de las Rosas</option>
+        <option value="value9">Serpentario Machaqway Villa de las Rosas </option>
+        <option value="value1">Golf Club Yacanto</option>
+        <option value="value10">ArtesaniasVicentino y producciones Yacanto</option>
+        <option value="value11">Vicentino Don Zamora Yacanto</option>
+        <option value="value12">Museo de piedra Cruz Sur Mina Clavero</option>
+        <option value="value13">Anfiteatro Municipal de Mina Clavero </option>
+        <option value="value14">Teatro Español Villa Dolores</option>
+        <option value="value15">Teatro Griego Villa Dolores </option>
+        <option value="value16">Museo de Villa Dolores</option>
+        <option value="value17">Santuario nuestra Señora del transito Villa Cura Brochero</option>
+        <option value="value18">Museo Brocheriano Villa Cura Brochero</option>
+        <option value="value19">Museo Polifacético Rocsen Nono</option>
+        <option value="value20">Iglesia de la Virgen de las Merced Layuba</option>
+        <option value="value21">Monumento a la India Panaholma</option>
+        <option value="value22">Capilla de las Palmas Salsacate</option>
+        <option value="value23">El Fogon San Pedro</option>
+        <option value="value24">Capilla y Templos San Pedro</option>
+        <option value="value25">Balneario Nido del Aguila Mina Clavero</option>
+        <option value="value26">Cascada del toro muerto Mina Clavero</option>
+        <option value="value27">Piedra Pintada Villa Dolores</option>
+        <option value="value28">Plaza Mitre Villa Dolores</option>
+        <option value="value29">Plaza Centenario Villa Cura Brochero</option>
+        <option value="value30">Granja Finca El Encanto Villa Cura Brochero</option>
+        <option value="value32">Balneario la kiva Nono</option>
+        <option value="value33">Paso de las tropas Nono</option>
+        <option value="value34">Sendero de las Sierras Embrujadas las Rabonas</option>
+        <option value="value35">Dique la viña Quebrada de los Pozos</option>
+        <option value="value36">Dique Nivelador Boca del Río Las Tapias</option>
+        <option value="value37">Sendero Quebrada de Ambrosio San Javier y Yacanto</option>
+        <option value="value38">Río Panaholma</option>
+        <option value="value39">Camino de los Volcanes Salsacate</option>
+        <option value="value40">Senderismo San Lorenzo</option>
+
+    </select>
+</div>
+    <div class="container">
+        <label for="opinion" class="form-label">Brindanos tu opinion:</label>
+        <textarea name="cajaopinionu" id="opinion" cols="150" rows="10" required></textarea>
+    </div>
+    <div class="button-container">
+      <button type="button" onclick="capturardatosOpinionTurismo()" class="centered-button">Enviar</button>
+    </div>
+</form>
+<script src="ArchivosLenguajes/js/OpinionTurismo.js"></script>
