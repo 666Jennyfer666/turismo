@@ -6,4 +6,9 @@ img (Esta es donde tenemos guardadas mas carpetas con las imagenes utlizadas en 
 appturismotraslasierra (Contiene la aplicacion de Angular)
 NO_USAR (Pruebas de html que no los utilizamos)
 Maquetado_Organizacion del proyecto (En este se encuentra una carpeta con el maquetado , hay un pdf explicando el proceso del trabajo y excel con explicaciones de como nos organizamos como grupo)
+Eventos (La carpeta contiene fotos de eventos que tenemos en nuestra pagina)
+Bootstrap (Carpeta contenedora de boostrap 5)
+Base de Datos (Ella contiene el sql de nuestro proyecto)
+ArchivosLenguajes(La carpeta esta tiene css y Javascript)
+
 
