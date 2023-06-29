@@ -14,4 +14,3 @@ describe('UsuarioService', () => {
     expect(service).toBeTruthy();
   });
 });
-
