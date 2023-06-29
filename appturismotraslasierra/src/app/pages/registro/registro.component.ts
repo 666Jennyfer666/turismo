@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UsuarioService } from 'src/services/usuario.service';
 
 @Component({
   selector: 'app-registro',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./registro.component.css']
 })
 export class RegistroComponent {
+usuario: any;
+NombreValid: any;
+ApellidoValid: any;
+Queatraccionvisitaste: any;
+Brindanosopinion: any;
 
 }
+

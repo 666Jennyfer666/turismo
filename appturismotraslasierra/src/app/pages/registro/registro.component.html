@@ -7,16 +7,23 @@
     <form>
     <div class="container">
         <label for="nombre" class="form-label">Nombre</label>
-        <input type="text" name="NombreusuarioV" maxlength="30" minlength="3" class="form-control" id="nombre" required>
+        <input type="text" name="NombreusuarioV" maxlength="30" minlength="3" class="form-control" id="nombre" formControlName="nombre"[(ngModel)]="usuario.nombre" [class.border-danger]="NombreValid">
+        <div *ngIf="Nombre?.errors && Nombre?.touched">
+            <p *ngIf="Nombre?.hasError('required')" class="text-danger">El nombre es requerido</p>
     </div>
+</div>
     <div class="container">
         <label for="apellido" class="form-label">Apellido</label>
-        <input type="text" name="ApellidousuarioV" maxlength="30" minlength="3" class="form-control" id="apellido" required>
+        <input type="text" name="ApellidousuarioV" maxlength="30" minlength="3" class="form-control" id="apellido" formControlName="apellido" [(ngModel)]="usuario.apellido" [class.border-danger]="ApellidoValid">
+        <div *ngIf="Apellido.errors && Apellido?.touched">
+            <p *ngIf="Apellido.hasError('required')" class="text-danger">El apellido es requerido</p>
+        </div>     
     </div>
     
    <div class="container">
     <label for="localidad" class="form-label" style="padding-bottom: 20px;">Cual localidad visitaste </label>
-    <select name="localidadVisitada" id="localidad" style="margin-top: 40px;" required>
+    <select name="localidadVisitada" id="localidad" style="margin-top: 40px;" formControlName="cuallocalidadvisitaste" [(ngModul)]="usuario.cuallocalidadvisitaste" [class.border-danger]="CuallocalidadvisitasteValid">
+        <div *ngIf=".errors && ?.touched"></div>
         <option value="value1">
             Mina Clavero</option>
         <option value="value2">Villa Dolores</option>
@@ -38,7 +45,7 @@
 
 <div class="container">
     <label for="atraccion" class="form-label" style="padding-bottom: 20px;">Que atraccion visitaste</label>
-    <select name="atraccionVisitada" id="atraccion" style="margin-top: 10px;" required>
+    <select name="atraccionVisitada" id="atraccion" style="margin-top: 10px;" formControlName="Cuallocalidadvisitaste" required>
         <option value="value1">Acqualandia Park Mina Clavero</option>
         <option value="value2">Casino de Mina Clavero</option>
         <option value="value3">Festival de la Papa Villa Dolores</option>
