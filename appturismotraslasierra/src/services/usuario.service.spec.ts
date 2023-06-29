@@ -1,13 +1,16 @@
 import { TestBed } from '@angular/core/testing';
-
-import { UsuarioService } from './usuario.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { UsuarioResena, UsuarioConsulta, UsuarioNotificacion } from './usuario.service';
 
 describe('UsuarioService', () => {
-  let service: UsuarioService;
+  let service: UsuarioResena;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(UsuarioService);
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [UsuarioResena]
+    });
+    service = TestBed.inject(UsuarioResena);
   });
 
   it('should be created', () => {

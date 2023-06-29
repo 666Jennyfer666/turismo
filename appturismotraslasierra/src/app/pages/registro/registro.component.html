@@ -4,90 +4,105 @@
 <div class="text-center">
     <p>Valoramos tu perspectiva y nos encantaría que compartieras tus impresiones con respecto a las atracciones visitadas que se encuentren en el sitio web, destacando los aspectos que consideres más relevantes y brindando cualquier sugerencia o comentario que puedas tener.</p>
 </div>
-    <form>
+<form [formGroup]="resenaForm">
     <div class="container">
         <label for="nombre" class="form-label">Nombre</label>
-        <input type="text" name="NombreusuarioV" maxlength="30" minlength="3" class="form-control" id="nombre" required>
+        <input type="text" name="nombre" maxlength="30" minlength="3" class="form-control" id="nombre" formControlName="nombre">
+        <div *ngIf="resenaForm.get('nombre')?.errors && resenaForm.get('nombre')?.touched">
+            <p *ngIf="resenaForm.get('nombre')?.hasError('required')" class="text-danger">El nombre es requerido</p>
+        </div>
     </div>
     <div class="container">
         <label for="apellido" class="form-label">Apellido</label>
-        <input type="text" name="ApellidousuarioV" maxlength="30" minlength="3" class="form-control" id="apellido" required>
+        <input type="text" name="apellido" maxlength="30" minlength="3" class="form-control" id="apellido" formControlName="apellido">
+        <div *ngIf="resenaForm.get('apellido')?.errors && resenaForm.get('apellido')?.touched">
+            <p *ngIf="resenaForm.get('apellido')?.hasError('required')" class="text-danger">El apellido es requerido</p>
+        </div>     
     </div>
-    
-   <div class="container">
-    <label for="localidad" class="form-label" style="padding-bottom: 20px;">Cual localidad visitaste </label>
-    <select name="localidadVisitada" id="localidad" style="margin-top: 40px;" required>
-        <option value="value1">
-            Mina Clavero</option>
-        <option value="value2">Villa Dolores</option>
-        <option value="value3">Yacanto</option>
-        <option value="value3">San Javier</option>
-        <option value="value5">San Pedro</option>
-        <option value="value6">San Vicente</option>
-        <option value="value7">Salsacate</option>
-        <option value="value8">Nono</option>
-        <option value="value9">Panaholma</option>
-        <option value="value10">Luyaba</option>
-        <option value="value11">San Lorenzo</option>
-        <option value="value12">Las Tapias</option>
-        <option value="value13">Quebrada de los Pozo</option>
-        <option value="value14">Las Rabonas</option>
-        <option value="value15">Cura Brochero</option>
-    </select>
-</div>
 
-<div class="container">
-    <label for="atraccion" class="form-label" style="padding-bottom: 20px;">Que atraccion visitaste</label>
-    <select name="atraccionVisitada" id="atraccion" style="margin-top: 10px;" required>
-        <option value="value1">Acqualandia Park Mina Clavero</option>
-        <option value="value2">Casino de Mina Clavero</option>
-        <option value="value3">Festival de la Papa Villa Dolores</option>
-        <option value="value4">Feria Franca Villa Dolores</option>
-        <option value="value5">Eter Cine Villa Dolores</option>
-        <option value="value6">El laverinto de Nono</option>
-        <option value="value7">Feria de artesanos, productores y elavoradores Villa de las Rosas</option>
-        <option value="value8">Balneario Municipal Guasmara Villa de las Rosas</option>
-        <option value="value9">Serpentario Machaqway Villa de las Rosas </option>
-        <option value="value1">Golf Club Yacanto</option>
-        <option value="value10">ArtesaniasVicentino y producciones Yacanto</option>
-        <option value="value11">Vicentino Don Zamora Yacanto</option>
-        <option value="value12">Museo de piedra Cruz Sur Mina Clavero</option>
-        <option value="value13">Anfiteatro Municipal de Mina Clavero </option>
-        <option value="value14">Teatro Español Villa Dolores</option>
-        <option value="value15">Teatro Griego Villa Dolores </option>
-        <option value="value16">Museo de Villa Dolores</option>
-        <option value="value17">Santuario nuestra Señora del transito Villa Cura Brochero</option>
-        <option value="value18">Museo Brocheriano Villa Cura Brochero</option>
-        <option value="value19">Museo Polifacético Rocsen Nono</option>
-        <option value="value20">Iglesia de la Virgen de las Merced Layuba</option>
-        <option value="value21">Monumento a la India Panaholma</option>
-        <option value="value22">Capilla de las Palmas Salsacate</option>
-        <option value="value23">El Fogon San Pedro</option>
-        <option value="value24">Capilla y Templos San Pedro</option>
-        <option value="value25">Balneario Nido del Aguila Mina Clavero</option>
-        <option value="value26">Cascada del toro muerto Mina Clavero</option>
-        <option value="value27">Piedra Pintada Villa Dolores</option>
-        <option value="value28">Plaza Mitre Villa Dolores</option>
-        <option value="value29">Plaza Centenario Villa Cura Brochero</option>
-        <option value="value30">Granja Finca El Encanto Villa Cura Brochero</option>
-        <option value="value32">Balneario la kiva Nono</option>
-        <option value="value33">Paso de las tropas Nono</option>
-        <option value="value34">Sendero de las Sierras Embrujadas las Rabonas</option>
-        <option value="value35">Dique la viña Quebrada de los Pozos</option>
-        <option value="value36">Dique Nivelador Boca del Río Las Tapias</option>
-        <option value="value37">Sendero Quebrada de Ambrosio San Javier y Yacanto</option>
-        <option value="value38">Río Panaholma</option>
-        <option value="value39">Camino de los Volcanes Salsacate</option>
-        <option value="value40">Senderismo San Lorenzo</option>
+    <div class="container">
+        <label for="localidad" class="form-label" style="padding-bottom: 20px;">Cual localidad visitaste</label>
+        <select name="cuallocalidadvisitaste" id="localidad" style="margin-top: 40px;" formControlName="cuallocalidadvisitaste">
+            <option value="">Seleccione una opción</option>
+            <option value="Mina Clavero">Mina Clavero</option>
+            <option value="Villa Dolores">Villa Dolores</option>
+            <option value="Yacanto">Yacanto</option>
+            <option value="San Javier">San Javier</option>
+            <option value="San Pedro">San Pedro</option>
+            <option value="San Vicente">San Vicente</option>
+            <option value="Salsacate">Salsacate</option>
+            <option value="Nono">Nono</option>
+            <option value="Panaholma">Panaholma</option>
+            <option value="Luyaba">Luyaba</option>
+            <option value="San Lorenzo">San Lorenzo</option>
+            <option value="Las Tapias">Las Tapias</option>
+            <option value="Quebrada de los Pozos">Quebrada de los Pozos</option>
+            <option value="Las Rabonas">Las Rabonas</option>
+            <option value="Cura Brochero">Cura Brochero</option>
+        </select>
+        <div *ngIf="resenaForm.get('cuallocalidadvisitaste')?.errors && resenaForm.get('cuallocalidadvisitaste')?.touched">
+            <p *ngIf="resenaForm.get('cuallocalidadvisitaste')?.hasError('required')" class="text-danger">La localidad es requerida</p>
+        </div>
+    </div>
 
-    </select>
-</div>
+    <div class="container">
+        <label for="atraccion" class="form-label" style="padding-bottom: 20px;">Que atraccion visitaste</label>
+        <select name="queatraccionvisitaste" id="atraccion" style="margin-top: 10px;" formControlName="queatraccionvisitaste">
+            <option value="">Seleccione una opción</option>
+            <option value="Acqualandia Park Mina Clavero">Acqualandia Park Mina Clavero</option>
+            <option value="Casino de Mina Clavero">Casino de Mina Clavero</option>
+            <option value="Festival de la Papa Villa Dolores">Festival de la Papa Villa Dolores</option>
+            <option value="Feria Franca Villa Dolores">Feria Franca Villa Dolores</option>
+            <option value="Eter Cine Villa Dolores">Eter Cine Villa Dolores</option>
+            <option value="El laverinto de Nono">El laverinto de Nono</option>
+            <option value="Feria de artesanos, productores y elavoradores Villa de las Rosas">Feria de artesanos, productores y elavoradores Villa de las Rosas</option>
+            <option value="Balneario Municipal Guasmara Villa de las Rosas">Balneario Municipal Guasmara Villa de las Rosas</option>
+            <option value="Serpentario Machaqway Villa de las Rosas">Serpentario Machaqway Villa de las Rosas</option>
+            <option value="Golf Club Yacanto">Golf Club Yacanto</option>
+            <option value="ArtesaniasVicentino y producciones Yacanto">ArtesaniasVicentino y producciones Yacanto</option>
+            <option value="Vicentino Don Zamora Yacanto">Vicentino Don Zamora Yacanto</option>
+            <option value="Museo de piedra Cruz Sur Mina Clavero">Museo de piedra Cruz Sur Mina Clavero</option>
+            <option value="Anfiteatro Municipal de Mina Clavero">Anfiteatro Municipal de Mina Clavero</option>
+            <option value="Teatro Español Villa Dolores">Teatro Español Villa Dolores</option>
+            <option value="Teatro Griego Villa Dolores">Teatro Griego Villa Dolores</option>
+            <option value="Museo de Villa Dolores">Museo de Villa Dolores</option>
+            <option value="Santuario nuestra Señora del transito Villa Cura Brochero">Santuario nuestra Señora del transito Villa Cura Brochero</option>
+            <option value="Museo Brocheriano Villa Cura Brochero">Museo Brocheriano Villa Cura Brochero</option>
+            <option value="Museo Polifacético Rocsen Nono">Museo Polifacético Rocsen Nono</option>
+            <option value="Iglesia de la Virgen de las Merced Layuba">Iglesia de la Virgen de las Merced Layuba</option>
+            <option value="Monumento a la India Panaholma">Monumento a la India Panaholma</option>
+            <option value="Capilla de las Palmas Salsacate">Capilla de las Palmas Salsacate</option>
+            <option value="El Fogon San Pedro">El Fogon San Pedro</option>
+            <option value="Capilla y Templos San Pedro">Capilla y Templos San Pedro</option>
+            <option value="Balneario Nido del Aguila Mina Clavero">Balneario Nido del Aguila Mina Clavero</option>
+            <option value="Cascada del toro muerto Mina Clavero">Cascada del toro muerto Mina Clavero</option>
+            <option value="Piedra Pintada Villa Dolores">Piedra Pintada Villa Dolores</option>
+            <option value="Plaza Mitre Villa Dolores">Plaza Mitre Villa Dolores</option>
+            <option value="Plaza Centenario Villa Cura Brochero">Plaza Centenario Villa Cura Brochero</option>
+            <option value="Granja Finca El Encanto Villa Cura Brochero">Granja Finca El Encanto Villa Cura Brochero</option>
+            <option value="Balneario la kiva Nono">Balneario la kiva Nono</option>
+            <option value="Paso de las tropas Nono">Paso de las tropas Nono</option>
+            <option value="Sendero de las Sierras Embrujadas las Rabonas">Sendero de las Sierras Embrujadas las Rabonas</option>
+            <option value="Dique la viña Quebrada de los Pozos">Dique la viña Quebrada de los Pozos</option>
+            <option value="Dique Nivelador Boca del Río Las Tapias">Dique Nivelador Boca del Río Las Tapias</option>
+            <option value="Sendero Quebrada de Ambrosio San Javier y Yacanto">Sendero Quebrada de Ambrosio San Javier y Yacanto</option>
+            <option value="Río Panaholma">Río Panaholma</option>
+            <option value="Camino de los Volcanes Salsacate">Camino de los Volcanes Salsacate</option>
+            <option value="Senderismo San Lorenzo">Senderismo San Lorenzo</option>
+        </select>
+        <div *ngIf="Queatraccionvisitaste?.errors && Queatraccionvisitaste?.touched">
+            <p *ngIf="Queatraccionvisitaste?.hasError('required')" class="text-danger">La atraccion es requerida</p>
+        </div>
+    </div>
+
     <div class="container">
         <label for="opinion" class="form-label">Brindanos tu opinion:</label>
-        <textarea name="cajaopinionu" id="opinion" cols="150" rows="10" required></textarea>
+        <textarea name="brindanosopinion" id="opinion" cols="150" rows="10" formControlName="brindanosopinion" [(ngModel)]="usuario.brindanosopinion" [class.border-danger]="Brindanosopinion?.errors && Brindanosopinion?.touched"></textarea>
+        <div *ngIf="Brindanosopinion?.errors && Brindanosopinion?.touched">
+            <p *ngIf="Brindanosopinion?.hasError('required')" class="text-danger">Tu opinion es requerida</p>
+        </div>
     </div>
     <div class="button-container">
-      <button type="button" onclick="capturardatosOpinionTurismo()" class="centered-button">Enviar</button>
+        <button type="button" class="btn btn-primary centered-button" (click)="onEnviar()">Enviar</button>
     </div>
 </form>
-<script src="ArchivosLenguajes/js/OpinionTurismo.js"></script>
