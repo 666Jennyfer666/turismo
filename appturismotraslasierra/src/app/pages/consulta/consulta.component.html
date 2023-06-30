@@ -1,0 +1,165 @@
+<!-- Consulta -->
+<body>
+    <!-- Barra de navegación con fondo negro y letra clara -->
+      
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Turismo Traslasierra</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Los ítems que van en la barra de navegación -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+            <!-- Item de la barra que redirige al Inicio (index) -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+  
+            <!-- Item de la barra que abre un dropdown para ver las opciones de páginas de Qué visitar -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownQueVisitar" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Qué visitar
+                </a>
+  
+                <!-- Opciones de "Qué visitar" -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownQueVisitar">
+                  
+                  <!-- Item del dropdown que redirige a Cultura de Qué visitar -->
+                  <li><a class="dropdown-item" href="CulturaQueVisitar.html">Cultura</a></li>
+  
+                  <!-- Item del dropdown que redirige a Lugares Turísticos de Qué visitar -->
+                  <li><a class="dropdown-item" href="LugaresTuristicosQueVisitar.html">Lugares Turísticos</a></li>
+  
+                  <!-- Item del dropdown que redirige a Naturaleza de Qué visitar -->
+                  <li><a class="dropdown-item" href="NaturalezaQueVisitar.html">Lugares con Naturaleza</a></li>
+  
+                  <!-- Divisor del dropdown -->
+                  <li><hr class="dropdown-divider"></li>
+  
+                  <!-- Item del dropdown que redirige a opinion turismo -->
+                  <li><a class="dropdown-item" href="Opiniones De Turismo.html">¿Ya has visitado estos lugares?</a></li>
+  
+                </ul>
+            </li>
+  
+            <!-- Item de la barra que redirige a Localidades -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Localidad.html">Localidades</a>
+            </li>
+  
+            <!-- Item de la barra que abre un dropdown para ver las opciones de páginas de Información Útil -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownInfoUtil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Información Útil
+              </a>
+  
+              <!-- Opciones de "Información Útil" -->
+              <ul class="dropdown-menu" aria-labelledby="dropdownInfoUtil">
+  
+                <!-- Item del dropdown que redirige a Transporte de Información Útil -->
+                <li><a class="dropdown-item" href="transporte.html">Transporte</a></li>
+  
+                <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
+                <li><a class="dropdown-item" href="hospedaje.html">Hospedaje</a></li>
+  
+                <!-- Item del dropdown que redirige a Hospedaje de Información Útil -->
+                <li><a class="dropdown-item" href="Gastronomia.html">Gastronomia</a></li>
+  
+              </ul>
+            </li>
+  
+            <!-- Item de la barra que redirige a las Preguntas Frecuentes -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="PreguntasFrecuentes.html">FAQ</a>
+            </li>
+  
+            <!-- Item de la barra que redirige a Consulta -->
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="Consulta.html">Consulta</a>
+            </li>
+  
+            <!-- Item de la barra que redirige a Notificaciones -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Notificaciones.html">Notificaciones</a>
+            </li>
+  
+            <!-- Item de la barra que redirige a Términos y Condiciones -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="términos y condiciones.html">Términos y Condiciones</a>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <header>
+      <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" alt="Imagen del logo">
+      <!-- Esta etiqueta <h1> muestra el titulo de nuestro sitio web -->
+      <h1 id="interletrado-titulo" class="titulo">TRASLASIERRA</h1>
+    </header>
+  
+            <!-- Inicio de codigo consulta html  -->
+          <h1> <b>Consulta Turismo</b></h1>
+          <!-- Formulario con boostrap -->
+          <!-- Agregue en los input un required y un minlength y un maxlenght -->
+          <form class="form-consu">
+            <div class="mb-3">
+              <label for="nomusu" class="form-label">Nombre y Apellido:</label>
+              <input type="text" name="nomusu" class="form-control" id="nomusu"
+              aria-describedby="idEH" required minlength="8" maxlength="25">
+            </div>
+            <div class="mb-3">
+              <label for="emausu" class="form-label">Correo:</label>
+              <input type="email" name="emausu" class="form-control" id="emausu"
+              aria-describedby="idEH" required minlength="6" maxlength="25">
+              <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+            </div>
+            <div class="mb-3">
+              <label for="miTextarea"
+              class="form-control-plaintext">Consulta:</label>
+              <!-- Contiene un area de texto para que el usuario pueda escribir su consulta -->
+              <textarea name="miTextarea" class="form-control" id="miTextarea" cols="90" rows="8" minlength="10" maxlength="130"  required ></textarea>
+            </div>
+            <div>
+              <button type="button" onclick="capturaDatosConsulta()" class="btn-info">Enviar</button>
+            </div>
+          </form>
+  
+          
+  
+      <script src="ArchivosLenguajes/js/funcionamiento.js"></script>
+  
+      <footer>
+        <div id="fondo2">
+          <div class="form-range" id="calf">
+  
+              <!-- Creo un contenedor con la clase logo-container-->
+              <div>
+                <img src="img/Logos o Imagenes Pequeñas/Logo Página (OPCION 2).png" class="logo-container" alt="Logo" height="100">
+              </div>
+  
+          </div>
+          
+            <!-- Creo el pie de la pagina referido a redes sociales -->
+            <footer class="contact-info">
+              <!-- Creo listas desordenadas sin viñeta -->
+                <ul class="redes-sociales" style="list-style-type: none;">
+                  <!-- Imagen de Facebook con redireccionamiento a través de la función 'redirigir' -->
+                  <li><img src="img/Logos o Imagenes Pequeñas/faceb.png" alt="Facebook" onclick="redirigir('facebook')" class="imagen-pequena"></li>
+                  <!-- Imagen de Twitter con redireccionamiento a través de la función 'redirigir' -->
+                  <li><img src="img/Logos o Imagenes Pequeñas/imgtwitter.png" alt="Twitter" onclick="redirigir('twitter')" class="imagen-pequena"></li>
+                  <!-- Imagen de Instagram con redireccionamiento a través de la función 'redirigir' -->
+                  <li><img src="img/Logos o Imagenes Pequeñas/imageninsta.png" alt="Instagram" onclick="redirigir('instagram')" class="imagen-pequena"></li>
+                  <!-- Imagen de Gmail con redireccionamiento a través de la función 'redirigir' -->
+                  <li><img src="img/Logos o Imagenes Pequeñas/imagengmail.png" alt="Gmail" onclick="redirigir('gmail')" class="imagen-pequena"></li>
+                  <!-- Imagen de Whatsapp con redireccionamiento a través de la función 'redirigir' -->
+                  <li><img src="img/Logos o Imagenes Pequeñas/imagenwasap.png" alt="Whatsapp" onclick="redirigir('whatsaap')" class="imagen-pequena"></li>
+                </ul>
+            </footer>
+        </div>
+          <script src="ArchivosLenguajes/js/RedesSociales.js"></script>
+        </footer>
+  </body>
