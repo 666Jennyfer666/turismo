@@ -1,9 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
 @charset "UTF-8";
-@import '~bootstrap/dist/css/bootstrap.min.css';
-
-
-
+@import '~bootstrap/dic/css/bootstra.min.css';
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -347,8 +343,9 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] 
-/*{-webkit-appearance: button;}*/
+[type=submit] {
+  -webkit-appearance: button;
+}
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -405,7 +402,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
- /* -webkit-appearance: textfield;*/
+  -webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -2404,7 +2401,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
+  color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
